@@ -1,0 +1,25 @@
+{
+  "notification": [
+    {
+      "id": 0,
+      "date": 20190130,
+      "beginDate": 20190130,
+      "endDate": 20190228,
+      "cautionFlag": 0
+    },
+    {
+      "id": 1,
+      "date": 20190130,
+      "beginDate": 20190130,
+      "endDate": 20190201,
+      "cautionFlag": 0
+    },
+    {
+      "id": 2,
+      "date": 20190201,
+      "beginDate": 20190130,
+      "endDate": 20190228,
+      "cautionFlag": 1
+    }
+  ]
+}

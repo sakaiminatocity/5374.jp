@@ -1,0 +1,76 @@
+{
+  "routineClassificationName": [
+    {
+      "id": 0,
+      "routineClassificationId": 0,
+      "languageId": 0,
+      "routineClassificationName": "可燃ごみ"
+    },
+    {
+      "id": 1,
+      "routineClassificationId": 0,
+      "languageId": 1,
+      "routineClassificationName": "可燃ごみ"
+    },
+    {
+      "id": 2,
+      "routineClassificationId": 1,
+      "languageId": 0,
+      "routineClassificationName": "不燃ごみ"
+    },
+    {
+      "id": 3,
+      "routineClassificationId": 1,
+      "languageId": 1,
+      "routineClassificationName": "不燃ごみ"
+    },
+    {
+      "id": 4,
+      "routineClassificationId": 2,
+      "languageId": 0,
+      "routineClassificationName": "ビン缶"
+    },
+    {
+      "id": 5,
+      "routineClassificationId": 2,
+      "languageId": 1,
+      "routineClassificationName": "ビン缶"
+    },
+    {
+      "id": 6,
+      "routineClassificationId": 3,
+      "languageId": 0,
+      "routineClassificationName": "有害ごみ"
+    },
+    {
+      "id": 7,
+      "routineClassificationId": 3,
+      "languageId": 1,
+      "routineClassificationName": "有害ごみ"
+    },
+    {
+      "id": 8,
+      "routineClassificationId": 4,
+      "languageId": 0,
+      "routineClassificationName": "古紙類"
+    },
+    {
+      "id": 9,
+      "routineClassificationId": 4,
+      "languageId": 1,
+      "routineClassificationName": "古紙類"
+    },
+    {
+      "id": 10,
+      "routineClassificationId": 5,
+      "languageId": 0,
+      "routineClassificationName": "軟プラ類"
+    },
+    {
+      "id": 11,
+      "routineClassificationId": 5,
+      "languageId": 1,
+      "routineClassificationName": "軟プラ類"
+    }
+  ]
+}

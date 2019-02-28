@@ -1,0 +1,46 @@
+{
+  "notificationString": [
+    {
+      "id": 0,
+      "languageId": 0,
+      "notificationId": 0,
+      "title": "日本語",
+      "notification": "日本語"
+    },
+    {
+      "id": 1,
+      "languageId": 1,
+      "notificationId": 0,
+      "title": "English",
+      "notification": "English"
+    },
+    {
+      "id": 2,
+      "languageId": 0,
+      "notificationId": 1,
+      "title": "日本語",
+      "notification": "日本語"
+    },
+    {
+      "id": 3,
+      "languageId": 1,
+      "notificationId": 1,
+      "title": "English",
+      "notification": "English"
+    },
+    {
+      "id": 4,
+      "languageId": 0,
+      "notificationId": 2,
+      "title": "日本語",
+      "notification": "日本語"
+    },
+    {
+      "id": 5,
+      "languageId": 1,
+      "notificationId": 2,
+      "title": "English",
+      "notification": "English"
+    }
+  ]
+}
