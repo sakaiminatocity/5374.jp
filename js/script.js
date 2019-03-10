@@ -9,8 +9,6 @@ $( () => {
   let centerName = 'centerName';
   let classification = 'classification';
   let classificationName = 'classificationName';
-  let subClassification = 'subClassification';
-  let subClassificationName = 'subClassificationName';
   let garbage = 'garbage';
   let garbageName = 'garbageName';
   let routine = 'routine';
@@ -56,13 +54,23 @@ $( () => {
       document.cookie = 'areaId1_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
       document.cookie = 'areaId2_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
       createSelectboxAreaId1();
-      let speed = 500;
-      let position= $('.setting-area').offset().top;
-      $("html, body").animate({scrollTop:position}, speed, "swing");
+      if(navigator.userAgent.indexOf('msie') != -1 || navigator.userAgent.indexOf('trident') != -1) {
+
+      } else {
+        let speed = 500;
+        let position= $('.setting-area').offset().top;
+        $('.warning-message').hide();
+        $('html, body').animate({scrollTop:position}, speed, 'swing');
+      }
     } else {
       cookies.forEach( (cookie) => {
         cookieList[cookie.split('=')[0].replace('"', '').replace(' ', '')] = cookie.split('=')[1].replace('"', '').replace(' ', '');
       });
+      if(navigator.userAgent.indexOf('msie') != -1 || navigator.userAgent.indexOf('trident') != -1) {
+
+      } else {
+        $('.warning-message').hide();
+      }
       if (langFlag === -1) {
         lang = -1;
       } else {
@@ -127,6 +135,13 @@ $( () => {
       ).done ( (data_a, data_b) => {
         areaTable = data_a[0][area];
         areaNameTable = data_b[0][areaName];
+
+        areaTable.sort( (a, b) => {
+          if(a.sort < b.sort) return -1;
+          if(a.sort > b.sort) return 1;
+          return 0;
+        });
+
         areaId1Box.append('<option value="-1">' + labels[44] + '</option>');
         areaTable.forEach ( (areaRecord) => {
           if (areaRecord['areaDivision'] === 0 || areaRecord['areaDivision'] === 1) {
@@ -188,19 +203,21 @@ $( () => {
               areaDivision = 0;
             }
             if (areaRecord['areaDivision'] === 2) {
-              let areaString = '<option value="';
-              areaString += areaRecord['id'];
-              areaString += '">';
-              areaNameTable.forEach( (areaNameRecord) => {
-                if (areaNameRecord['areaId'] === areaRecord['id']) {
-                  if (areaNameRecord['languageId'] === lang ) {
-                    areaString += areaNameRecord['areaName'];
-                    return true;
+              if ((areaId1 + 1) === areaRecord['id'] || (areaId1 + 2) === areaRecord['id']) {
+                let areaString = '<option value="';
+                areaString += areaRecord['id'];
+                areaString += '">';
+                areaNameTable.forEach( (areaNameRecord) => {
+                  if (areaNameRecord['areaId'] === areaRecord['id']) {
+                    if (areaNameRecord['languageId'] === lang ) {
+                      areaString += areaNameRecord['areaName'];
+                      return true;
+                    }
                   }
-                }
-              });
-              areaString += '</option>';
-              areaId2Box.append(areaString);
+                });
+                areaString += '</option>';
+                areaId2Box.append(areaString);
+              }
             }
           });
           if(areaDivision === 0) {
@@ -640,6 +657,10 @@ $( () => {
       $('.l41').empty().append(labels[41]);
       $('.l42').empty().append(labels[42]);
       $('.l43').empty().append(labels[43]);
+      $('.l47').empty().append(labels[47]);
+      $('.l48').empty().append(labels[48]);
+      $('.l49').empty().append(labels[49]);
+      $('.l50').empty().append(labels[50]);
     });
   }
 
@@ -707,6 +728,10 @@ $( () => {
     lang = parseInt($('#lang').val());
 
     document.cookie = 'lang_5374.jp-sakaiminato=' + lang + '; max-age=' + cookieLifespan;
+
+    if (lang === -1) {
+      lang = 0;
+    }
 
     loadWarning();
     loadNotification();

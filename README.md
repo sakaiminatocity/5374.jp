@@ -1,5 +1,17 @@
 # 5374.jp -Sakaiminato- 操作マニュアル
 
+## 動作保証環境
+
+当アプリは下記の環境での動作のみ保証しております。
+
+- Google Chrome
+- Mozilla FireFox
+- Microsoft Edge
+- Safari
+- iOS Safari
+
+※Internet Explorerをご利用の方はEdge、またはChromeでご覧ください。
+
 ## 初期設定
 
 ### 1. 言語設定

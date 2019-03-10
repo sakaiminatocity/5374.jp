@@ -376,6 +376,20 @@ select {
   appearance: none;
 }
 
+.warning-message {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff8080));
+  background: linear-gradient(#ff0000, #ff8080);
+}
+
+.warning-message h2 {
+  font-size: 200%;
+}
+
+.warning-message p {
+  font-size: 150%;
+}
+
 #header {
   width: calc(100% - 4px);
   background: -webkit-gradient(linear, left top, left bottom, from(#2b80d5), to(#72aae2));
