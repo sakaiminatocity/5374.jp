@@ -4,9 +4,19 @@
     <meta charset="utf-8">
     <title>5374.jp - Sakaiminato -</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="境港市のゴミ回収情報を提供。">
     <link rel="shortcut icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon-precomposed" href="./img/manifest_icon-192.png">
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('/serviceworker.js').then(function(){
+          console.log("Service Worker Registered");
+        });
+      }
+    </script>
   </head>
   <body>
     <div class="warning-message">
