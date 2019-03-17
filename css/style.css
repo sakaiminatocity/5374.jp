@@ -846,6 +846,10 @@ select {
   margin: 0 auto;
 }
 
+#main .notification-function p.notes {
+  font-size: 0.75em;
+}
+
 #main .notification-function a {
   color: #00f;
 }

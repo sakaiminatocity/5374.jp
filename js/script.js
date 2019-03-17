@@ -458,6 +458,7 @@ $( () => {
   function loadNotification () {
     let notificationsArea = $('.notifications');
     let notificationContent = '';
+    let notificationCount = 0;
 
     let today = new Date();
 
@@ -492,6 +493,7 @@ $( () => {
         });
 
         notificationContent += '<h2>' + labels[30] + '</h2>';
+        notificationCount = 0;
 
         notificationTable.forEach( (notificationRecord) => {
           let cautionFlag = notificationRecord['cautionFlag'];
@@ -503,10 +505,16 @@ $( () => {
                 notificationContent += '<div class="notification"><div class="notification-head"><time datetime="' + (notificationRecord['date'] + '').slice(0, 4) + '-' + (notificationRecord['date'] + '').slice(4, 6) + '-' + (notificationRecord['date'] + '').slice(6, 8) + '">' + (notificationRecord['date'] + '').slice(0, 4) + labels[13] + ( parseInt( (notificationRecord['date'] + '').slice(4, 6) ) + '') + labels[14] + ( parseInt( (notificationRecord['date'] + '').slice(6, 8)) + '') + labels[15] + '</time>';
                 notificationContent += '<h3>' + notificationStringRecord['title'] + '</h3></div>';
                 notificationContent += '<div class="notification-body"><p>' + notificationStringRecord['notification'] + '</p></div></div>';
+                notificationCount++;
               }
             });
           }
         });
+
+        if (notificationCount === 0) {
+          notificationContent += '<div class="notification"><p>' + labels[52] + '</p></div>';
+        }
+
         notificationsArea.append(notificationContent);
         $('.notification-head').on( 'click', function() {
           $(this).next('.notification-body').slideToggle();
@@ -584,47 +592,47 @@ $( () => {
     });
   }
 
-  function getCenterData() {
-    let centerArea = $('.recycle-station .accordion');
-    let centerCount = 0;
-    let labels = [];
-
-    centerArea.empty();
-
-    $.when(
-      $.getJSON(baseUrl + labelString + '.json')
-    ).done( (data_a) => {
-      let labelTable = data_a[labelString];
-
-      labelTable.forEach( (labelRecord) => {
-        if (labelRecord['languageId'] === lang) {
-          labels.push(labelRecord['label']);
-        }
-      });
-
-      $.when(
-        $.getJSON(baseUrl + center + '.json'),
-        $.getJSON(baseUrl + centerName + '.json')
-      ).done( (data_a, data_b) => {
-        let centerTable = data_a[0][center];
-        let centerNameTable = data_b[0][centerName];
-
-        centerTable.forEach( (centerRecord) => {
-          centerNameTable.forEach( (centerNameRecord) => {
-            if (centerNameRecord['languageId'] === lang) {
-              if (centerCount > 0) {
-                centerArea.append('<hr>')
-              }
-              centerArea.append('<h3>' + centerNameRecord['centerName'] + '</h3>');
-              centerArea.append('<img src="./img/' + centerRecord['image'] + '" alt="">');
-              centerArea.append('<address><p>'+ centerNameRecord['address'] +'</p><p><i class="fas fa-phone-volume"></i>' + centerRecord['phoneNum'] + '</p></address>');
-              centerCount++;
-            }
-          });
-        });
-      });
-    });
-  }
+  // function getCenterData() {
+  //   let centerArea = $('.recycle-station .accordion');
+  //   let centerCount = 0;
+  //   let labels = [];
+  //
+  //   centerArea.empty();
+  //
+  //   $.when(
+  //     $.getJSON(baseUrl + labelString + '.json')
+  //   ).done( (data_a) => {
+  //     let labelTable = data_a[labelString];
+  //
+  //     labelTable.forEach( (labelRecord) => {
+  //       if (labelRecord['languageId'] === lang) {
+  //         labels.push(labelRecord['label']);
+  //       }
+  //     });
+  //
+  //     $.when(
+  //       $.getJSON(baseUrl + center + '.json'),
+  //       $.getJSON(baseUrl + centerName + '.json')
+  //     ).done( (data_a, data_b) => {
+  //       let centerTable = data_a[0][center];
+  //       let centerNameTable = data_b[0][centerName];
+  //
+  //       centerTable.forEach( (centerRecord) => {
+  //         centerNameTable.forEach( (centerNameRecord) => {
+  //           if (centerNameRecord['languageId'] === lang) {
+  //             if (centerCount > 0) {
+  //               centerArea.append('<hr>')
+  //             }
+  //             centerArea.append('<h3>' + centerNameRecord['centerName'] + '</h3>');
+  //             centerArea.append('<img src="./img/' + centerRecord['image'] + '" alt="">');
+  //             centerArea.append('<address><p>'+ centerNameRecord['address'] +'</p><p><i class="fas fa-phone-volume"></i>' + centerRecord['phoneNum'] + '</p></address>');
+  //             centerCount++;
+  //           }
+  //         });
+  //       });
+  //     });
+  //   });
+  // }
 
   function drawingLabels() {
     let labels = [];
@@ -667,6 +675,8 @@ $( () => {
       $('.l48').empty().append(labels[48]);
       $('.l49').empty().append(labels[49]);
       $('.l50').empty().append(labels[50]);
+      $('.l51').empty().append(labels[51]);
+      $('.l53').empty().append(labels[53]);
     });
   }
 
@@ -674,7 +684,7 @@ $( () => {
   createSelectboxLang();
   loadWarning();
   loadNotification();
-  getCenterData();
+  // getCenterData();
   drawingLabels();
 
   $('.accordion').slideToggle();
@@ -741,7 +751,7 @@ $( () => {
 
     loadWarning();
     loadNotification();
-    getCenterData();
+    // getCenterData();
     drawingLabels();
     createSelectboxAreaId1();
     if ((areaId1 !== -1) || (areaId2 !== -1)) {
