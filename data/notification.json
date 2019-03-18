@@ -1,6 +1,5 @@
 {"notification": [
 {"id": 0, "date": 20190130, "beginDate": 20190130, "endDate": 20190330, "cautionFlag": 0},
 {"id": 1, "date": 20190130, "beginDate": 20190130, "endDate": 20190228, "cautionFlag": 0},
-{"id": 2, "date": 20190201, "beginDate": 20190130, "endDate": 20190330, "cautionFlag": 1},
-{"id": 3, "date": 20190401, "beginDate": 20190401, "endDate": 20190430, "cautionFlag": 0}
+{"id": 2, "date": 20190201, "beginDate": 20190130, "endDate": 20190330, "cautionFlag": 1}
 ]}
