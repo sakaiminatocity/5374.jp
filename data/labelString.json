@@ -11,8 +11,8 @@
 {"id": 9, "labelId": 4, "languageId": 1, "label": "Notification function"},
 {"id": 10, "labelId": 5, "languageId": 0, "label": "休日の収集・振替収集について"},
 {"id": 11, "labelId": 5, "languageId": 1, "label": "About collection and transfer collection of holidays"},
-{"id": 12, "labelId": 6, "languageId": 0, "label": "リサイクルステーション"},
-{"id": 13, "labelId": 6, "languageId": 1, "label": "Recycle station"},
+{"id": 12, "labelId": 6, "languageId": 0, "label": "ごみ分別早見表はこちら"},
+{"id": 13, "labelId": 6, "languageId": 1, "label": "Garbage separation chart is this place"},
 {"id": 14, "labelId": 7, "languageId": 0, "label": "粗大ごみの戸別収集の申込方法"},
 {"id": 15, "labelId": 7, "languageId": 1, "label": "How to apply for collecting household waste separately"},
 {"id": 16, "labelId": 8, "languageId": 0, "label": "市の施設への搬入方法"},
@@ -100,5 +100,11 @@
 {"id": 98, "labelId": 49, "languageId": 0, "label": "動作保証ブラウザ"},
 {"id": 99, "labelId": 49, "languageId": 1, "label": "Certification browser"},
 {"id": 100, "labelId": 50, "languageId": 0, "label": "Microsoft Edge, Chrome, Firefox, Safari, iOS Safari"},
-{"id": 101, "labelId": 50, "languageId": 1, "label": "Microsoft Edge, Chrome, Firefox, Safari, iOS Safari"}
+{"id": 101, "labelId": 50, "languageId": 1, "label": "Microsoft Edge, Chrome, Firefox, Safari, iOS Safari"},
+{"id": 102, "labelId": 51, "languageId": 0, "label": "メール配信を希望される方は空メールを送信する際に、送信ボタンが押せない場合は、何かしらの文字を入力してからお試しください。"},
+{"id": 103, "labelId": 51, "languageId": 1, "label": "If you want to send mail, please send some blank letters if you can not press the send button when sending a blank mail."},
+{"id": 104, "labelId": 52, "languageId": 0, "label": "現在お知らせはございません。"},
+{"id": 105, "labelId": 52, "languageId": 1, "label": "There is no notice at present."},
+{"id": 106, "labelId": 53, "languageId": 0, "label": "ごみ分別早見表は<a href=\"http://www.city.sakaiminato.lg.jp/index.php?view=108858\">こちら</a><br>境港市のホームぺージにつながります。『■ごみ分別早見表』をクリックしてください。"},
+{"id": 107, "labelId": 53, "languageId": 1, "label": "Garbage separation chart is <a href=\"http://www.city.sakaiminato.lg.jp/index.php?view=108858\">here</a><br>on the home page of Sakaiminato City be connected. Please click \"■ Garbage separation chart\"."}
 ]}
