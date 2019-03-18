@@ -3,6 +3,8 @@
 {"id": 1, "notificationId": 0, "languageId": 1, "title": "Title", "notification": "English"},
 {"id": 2, "notificationId": 1, "languageId": 0, "title": "タイトル", "notification": "日本語"},
 {"id": 3, "notificationId": 1, "languageId": 1, "title": "Title", "notification": "English"},
-{"id": 4, "notificationId": 2, "languageId": 0, "title": "タイトル", "notification": "日本語"},
-{"id": 5, "notificationId": 2, "languageId": 1, "title": "Title", "notification": "English"}
+{"id": 4, "notificationId": 2, "languageId": 0, "title": "GWの収集について", "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00105972-cqnyc7.pdf\" target=”_blank” >こちらを参照ください</a>"},
+{"id": 5, "notificationId": 2, "languageId": 1, "title": "About the collection of Golden Week", "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00105972-cqnyc7.pdf\" target=”_blank” >see here</a>"},
+{"id": 6, "notificationId": 3, "languageId": 0, "title": "タイトル", "notification": "日本語"},
+{"id": 7, "notificationId": 3, "languageId": 1, "title": "Title", "notification": "English"}
 ]}
