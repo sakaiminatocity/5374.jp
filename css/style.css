@@ -880,6 +880,15 @@ select {
   transition: .3s;
 }
 
+#main .transfer h2.no,
+#main .recycle-station h2.no,
+#main .oversize-garbage h2.no,
+#main .bring-in h2.no,
+#main .not-handle h2.no,
+#main .inquiry h2.no {
+  cursor: default;
+}
+
 #main .transfer h2:hover,
 #main .recycle-station h2:hover,
 #main .oversize-garbage h2:hover,
@@ -890,39 +899,78 @@ select {
 }
 
 #main .transfer .accordion,
+#main .transfer .accordion-no,
 #main .recycle-station .accordion,
+#main .recycle-station .accordion-no,
 #main .oversize-garbage .accordion,
+#main .oversize-garbage .accordion-no,
 #main .bring-in .accordion,
+#main .bring-in .accordion-no,
 #main .not-handle .accordion,
-#main .inquiry .accordion {
+#main .not-handle .accordion-no,
+#main .inquiry .accordion,
+#main .inquiry .accordion-no {
   padding: 10px 15px;
 }
 
 #main .transfer .accordion p,
+#main .transfer .accordion-no p,
 #main .recycle-station .accordion p,
+#main .recycle-station .accordion-no p,
 #main .oversize-garbage .accordion p,
+#main .oversize-garbage .accordion-no p,
 #main .bring-in .accordion p,
+#main .bring-in .accordion-no p,
 #main .not-handle .accordion p,
-#main .inquiry .accordion p {
+#main .not-handle .accordion-no p,
+#main .inquiry .accordion p,
+#main .inquiry .accordion-no p {
   margin: 0;
 }
 
+#main .transfer .accordion p.notes,
+#main .transfer .accordion-no p.notes,
+#main .recycle-station .accordion p.notes,
+#main .recycle-station .accordion-no p.notes,
+#main .oversize-garbage .accordion p.notes,
+#main .oversize-garbage .accordion-no p.notes,
+#main .bring-in .accordion p.notes,
+#main .bring-in .accordion-no p.notes,
+#main .not-handle .accordion p.notes,
+#main .not-handle .accordion-no p.notes,
+#main .inquiry .accordion p.notes,
+#main .inquiry .accordion-no p.notes {
+  font-size: 0.75em;
+}
+
 #main .transfer .accordion hr,
+#main .transfer .accordion-no hr,
 #main .recycle-station .accordion hr,
+#main .recycle-station .accordion-no hr,
 #main .oversize-garbage .accordion hr,
+#main .oversize-garbage .accordion-no hr,
 #main .bring-in .accordion hr,
+#main .bring-in .accordion-no hr,
 #main .not-handle .accordion hr,
-#main .inquiry .accordion hr {
+#main .not-handle .accordion-no hr,
+#main .inquiry .accordion hr,
+#main .inquiry .accordion-no hr {
   border-top: 1px solid black;
   margin: 10px 0;
 }
 
 #main .transfer .accordion h3,
+#main .transfer .accordion-no h3,
 #main .recycle-station .accordion h3,
+#main .recycle-station .accordion-no h3,
 #main .oversize-garbage .accordion h3,
+#main .oversize-garbage .accordion-no h3,
 #main .bring-in .accordion h3,
+#main .bring-in .accordion-no h3,
 #main .not-handle .accordion h3,
-#main .inquiry .accordion h3 {
+#main .not-handle .accordion-no h3,
+#main .inquiry .accordion h3,
+#main .inquiry .accordion-no h3 {
   font-size: 87.5%;
   font-weight: normal;
   margin: 0;
@@ -930,32 +978,50 @@ select {
 }
 
 #main .transfer .accordion address,
+#main .transfer .accordion-no address,
 #main .recycle-station .accordion address,
+#main .recycle-station .accordion-no address,
 #main .oversize-garbage .accordion address,
+#main .oversize-garbage .accordion-no address,
 #main .bring-in .accordion address,
+#main .bring-in .accordion-no address,
 #main .not-handle .accordion address,
-#main .inquiry .accordion address {
+#main .not-handle .accordion-no address,
+#main .inquiry .accordion address,
+#main .inquiry .accordion-no address {
   font-style: normal;
   margin: 0;
   margin-top: 15px;
 }
 
 #main .transfer .accordion address.tel,
+#main .transfer .accordion-no address.tel,
 #main .recycle-station .accordion address.tel,
+#main .recycle-station .accordion-no address.tel,
 #main .oversize-garbage .accordion address.tel,
+#main .oversize-garbage .accordion-no address.tel,
 #main .bring-in .accordion address.tel,
+#main .bring-in .accordion-no address.tel,
 #main .not-handle .accordion address.tel,
-#main .inquiry .accordion address.tel {
+#main .not-handle .accordion-no address.tel,
+#main .inquiry .accordion address.tel,
+#main .inquiry .accordion-no address.tel {
   font-size: 150%;
   font-weight: bold;
 }
 
 #main .transfer .accordion address i,
+#main .transfer .accordion-no address i,
 #main .recycle-station .accordion address i,
+#main .recycle-station .accordion-no address i,
 #main .oversize-garbage .accordion address i,
+#main .oversize-garbage .accordion-no address i,
 #main .bring-in .accordion address i,
+#main .bring-in .accordion-no address i,
 #main .not-handle .accordion address i,
-#main .inquiry .accordion address i {
+#main .not-handle .accordion-no address i,
+#main .inquiry .accordion address i,
+#main .inquiry .accordion-no address i {
   margin-right: 10px;
 }
 
