@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.global-navi ul li:nth-child(2) {
+  display: none;
+}
+.global-navi .l6 a {
+  width: auto;
+  display: inline-block;
+}
+
+#transfer {
+  display: none;
+}
