@@ -3,11 +3,17 @@
 .global-navi ul li:nth-child(2) {
   display: none;
 }
-.global-navi .l6 a {
+#header .global-navi a .l6 a {
   width: auto;
   display: inline-block;
+  padding: 0;
 }
 
 #transfer {
   display: none;
+}
+
+.accordion-no {
+  padding-left: 0;
+  padding-right: 0;
 }
