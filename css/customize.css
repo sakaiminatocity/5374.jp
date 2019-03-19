@@ -13,7 +13,7 @@
   display: none;
 }
 
-.accordion-no {
+#main .recycle-station .accordion-no {
   padding-left: 0;
   padding-right: 0;
 }
