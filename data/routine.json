@@ -110,7 +110,7 @@
 {"id": 108, "routineClassificationId": 0, "areaId": 19, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,1,0,0,1,0], "irregularFlag": 0},
 {"id": 109, "routineClassificationId": 1, "areaId": 19, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,0,1,0,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id": 110, "routineClassificationId": 2, "areaId": 19, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,1,0,1,0,0], "day": [0,0,0,0,0,1,0], "irregularFlag": 0},
-{"id": 111, "routineClassificationId": 3, "areaId": 19, "year": 2019, "month": [1,0,0,1,0,0,1,0,0,1,0,0], "week": [0,0,0,1,0,0], "day": [0,0,0,0,1,0,0], "irregularFlag": 0},
+{"id": 111, "routineClassificationId": 3, "areaId": 19, "year": 2019, "month": [1,0,0,1,0,0,1,0,0,1,0,0], "week": [0,0,0,1,0,0], "day": [0,0,0,0,0,1,0], "irregularFlag": 0},
 {"id": 112, "routineClassificationId": 4, "areaId": 19, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,0,0,0,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id": 113, "routineClassificationId": 5, "areaId": 19, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,1,0,0,0,0,0], "irregularFlag": 0},
 {"id": 114, "routineClassificationId": 0, "areaId": 21, "year": 2019, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,1,0,0,1,0,0], "irregularFlag": 0},
