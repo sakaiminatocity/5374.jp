@@ -353,8 +353,10 @@ $( () => {
                   let weeks = routineRecord['week'];
                   let days = routineRecord['day'];
                   let weekCount = 0;
-                  catWeek[routineRecord['routineClassificationId']] = weeks;
-                  catDay[routineRecord['routineClassificationId']] = days;
+                  if (routineRecord['irregularFlag'] === 0) {
+                    catWeek[routineRecord['routineClassificationId']] = weeks;
+                    catDay[routineRecord['routineClassificationId']] = days;
+                  }
                   weeks.forEach( (week) => {
                     let dayCount = 0;
                     days.forEach( (day) => {
