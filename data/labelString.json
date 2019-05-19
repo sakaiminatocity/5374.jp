@@ -1,7 +1,7 @@
 {"labelString": [
 {"id": 0, "labelId": 0, "languageId": 0, "label": "水木プロ"},
 {"id": 1, "labelId": 0, "languageId": 1, "label": "Mizuki Pro"},
-{"id": 2, "labelId": 1, "languageId": 0, "label": "ごみ分別検索"},
+{"id": 2, "labelId": 1, "languageId": 0, "label": "ごみ分別検索(ひらがなのみで検索)"},
 {"id": 3, "labelId": 1, "languageId": 1, "label": "Garbage separation search"},
 {"id": 4, "labelId": 2, "languageId": 0, "label": "検索結果"},
 {"id": 5, "labelId": 2, "languageId": 1, "label": "Search results&nbsp;&nbsp;"},
