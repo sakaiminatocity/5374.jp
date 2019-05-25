@@ -1071,11 +1071,12 @@ select {
 
 .about-app {
   width: calc(100% - 60px);
-  height: calc(100% - 90px);
+  height: calc(100% - 30px);
   color: black;
   font-size: 100%;
+  line-height: 1.25;
   background: white;
-  padding: 45px 30px;
+  padding: 15px 30px;
   -webkit-transition: .3s;
   transition: .3s;
   position: fixed;
