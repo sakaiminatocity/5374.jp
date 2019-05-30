@@ -758,6 +758,7 @@ $(() => {
   $('#area-id1').change((e) => {
     areaId1 = parseInt($('#area-id1').val());
     document.cookie = 'areaId1_5374.jp-sakaiminato=' + areaId1 + '; max-age=' + cookieLifespan;
+    areaId2 = -1;
     createSelectboxAreaId2();
   });
 
