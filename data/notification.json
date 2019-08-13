@@ -2,5 +2,6 @@
 {"id": 0, "date": 20190130, "beginDate": 20190130, "endDate": 20190130, "cautionFlag": 0},
 {"id": 1, "date": 20190130, "beginDate": 20190130, "endDate": 20190228, "cautionFlag": 0},
 {"id": 2, "date": 20190315, "beginDate": 20190315, "endDate": 20190506, "cautionFlag": 0},
-{"id": 3, "date": 20190201, "beginDate": 20190130, "endDate": 20190315, "cautionFlag": 1}
+{"id": 3, "date": 20190201, "beginDate": 20190130, "endDate": 20190315, "cautionFlag": 1},
+{"id": 4, "date": 20190813, "beginDate": 20190813, "endDate": 20190816, "cautionFlag": 1}
 ]}
