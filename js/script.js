@@ -241,7 +241,7 @@ $(() => {
     let today = new Date();
     let todayDay = today.getDate();
     let firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
-    let toYear = today.getMonth() < 8 ? today.getFullYear() : today.getFullYear() - 1;
+    let toYear = today.getMonth() < 8 ? today.getFullYear() : today.getFullYear() + 1;
 
     let monthDate = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     let isLeapYear = (y) => {
@@ -345,7 +345,7 @@ $(() => {
           routineTable.forEach((routineRecord) => {
             if (routineRecord['areaId'] === thisArea) {
               if (routineRecord['year'] === toYear) {
-                if (routineRecord['month'][today.getMonth() < 9 ? today.getMonth() + 4 : today.getMonth() - 9] === 1) {
+                if (routineRecord['month'][today.getMonth() < 8 ? today.getMonth() + 4 : today.getMonth() - 8] === 1) {
                   let weeks = routineRecord['week'];
                   let days = routineRecord['day'];
                   let weekCount = 0;
