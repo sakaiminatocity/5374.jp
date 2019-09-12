@@ -1,5 +1,5 @@
 {"routine": [
-{"id": 0, "routineClassificationId": 0, "areaId": 0, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,0,0,0,0,0], "irregularFlag": 0},
+{"id": 0, "routineClassificationId": 0, "areaId": 0, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,1,0,0,1,0], "irregularFlag": 0},
 {"id": 1, "routineClassificationId": 0, "areaId": 0, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
 {"id":2, "routineClassificationId": 1, "areaId": 0, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,0,1,0,0,0], "day": [0,1,0,0,0,0,0], "irregularFlag": 0},
 {"id":3, "routineClassificationId": 1, "areaId": 0, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
@@ -1363,7 +1363,7 @@
 {"id":1361, "routineClassificationId": 2, "areaId": 135, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
 {"id":1362, "routineClassificationId": 3, "areaId": 135, "year": 2020, "month": [1,0,0,1,0,0,1,0,0,1,0,0], "week": [0,0,0,1,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id":1363, "routineClassificationId": 3, "areaId": 135, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
-{"id":1364, "routineClassificationId": 4, "areaId": 135, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,0,0,1,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
+{"id":1364, "routineClassificationId": 4, "areaId": 135, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,1,0,0,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id":1365, "routineClassificationId": 4, "areaId": 135, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
 {"id":1366, "routineClassificationId": 5, "areaId": 135, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,1,0,0,0,0], "irregularFlag": 0},
 {"id":1367, "routineClassificationId": 5, "areaId": 135, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
@@ -1375,7 +1375,7 @@
 {"id":1373, "routineClassificationId": 2, "areaId": 136, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
 {"id":1374, "routineClassificationId": 3, "areaId": 136, "year": 2020, "month": [1,0,0,1,0,0,1,0,0,1,0,0], "week": [0,0,0,1,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id":1375, "routineClassificationId": 3, "areaId": 136, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
-{"id":1376, "routineClassificationId": 4, "areaId": 136, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,0,0,1,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
+{"id":1376, "routineClassificationId": 4, "areaId": 136, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [0,1,0,0,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 0},
 {"id":1377, "routineClassificationId": 4, "areaId": 136, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1},
 {"id":1378, "routineClassificationId": 5, "areaId": 136, "year": 2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,1,0,0,0,0], "irregularFlag": 0},
 {"id":1379, "routineClassificationId": 5, "areaId": 136, "year": 2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1}
