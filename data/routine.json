@@ -1439,4 +1439,4 @@
 {"id":1437, "routineClassificationId": 4, "areaId":136, "year":2020, "month": [0,0,1,0,0,1,0,0,1,0,0,1], "week": [0,2,1,0,0,0], "day": [0,0,0,1,0,0,0], "irregularFlag": 1},
 {"id":1438, "routineClassificationId": 5, "areaId":136, "year":2020, "month": [1,1,1,1,1,1,1,1,1,1,1,1], "week": [1,1,1,1,1,1], "day": [0,0,1,0,0,0,0], "irregularFlag": 0},
 {"id":1439, "routineClassificationId": 5, "areaId":136, "year":2020, "month": [0,0,0,0,0,0,0,0,0,0,0,0], "week": [0,0,0,0,0,0], "day": [0,0,0,0,0,0,0], "irregularFlag": 1}
-]
+]}
