@@ -1,0 +1,170 @@
+[
+  {
+    "id": 4,
+    "notificationId": 2,
+    "languageId": 0,
+    "title": "GWの収集について",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00105972-cqnyc7.pdf\" target=\"_blank\" >こちらを参照ください</a>"
+  },
+  {
+    "id": 5,
+    "notificationId": 2,
+    "languageId": 1,
+    "title": "About the collection of Golden Week",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00105972-cqnyc7.pdf\" target=\"_blank\" >see here</a>"
+  },
+  {
+    "id": 8,
+    "notificationId": 4,
+    "languageId": 0,
+    "title": "台風の接近に伴い資源ごみビン缶類・軟質プラスチック類の収集を中止します",
+    "notification": "台風10号の接近により、8月15日（木）の資源ごみビン缶類および軟質プラスチック類、8月16日（金）の資源ごみビン缶類の収集を中止します。（強風により回収コンテナやごみが飛散する恐れがあるため。）<br>大変申し訳ありませんが、次回の収集までお待ちいただくか、お急ぎの場合は直接搬入してください。<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=106423\" target=\"_blank\" >市ホームページ</a>"
+  },
+  {
+    "id": 9,
+    "notificationId": 4,
+    "languageId": 1,
+    "title": "With the approach of the typhoon, we will stop collecting resource waste bins and soft plastics",
+    "notification": "Due to the approach of Typhoon No. 10, we will stop collecting resource-trash bins and soft plastics on August 15 (Thursday), and resource-trash bins on August 16 (Friday)(The strong wind may cause the collection container and trash to scatter.).<br>I'm very sorry, but please wait until the next collection, or if you are in a hurry, please bring it in directly.<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=106423\" target=\"_blank\" >the city website</a>"
+  },
+  {
+    "id": 10,
+    "notificationId": 5,
+    "languageId": 0,
+    "title": "収集カレンダーのメンテナンスについて",
+    "notification": "現在、収集カレンダーのメンテンナンスを行っております。<br>皆様にはご迷惑をおかけしますが、メンテナンス終了までお待ちください。"
+  },
+  {
+    "id": 11,
+    "notificationId": 5,
+    "languageId": 1,
+    "title": "About collecting calendar maintenance",
+    "notification": "We are currently maintaining the maintenance of the collection calendar.<br>We apologize for any inconvenience this may cause, but please wait until the end of maintenance."
+  },
+  {
+    "id": 12,
+    "notificationId": 6,
+    "languageId": 0,
+    "title": "年末年始のごみの収集及び自己搬入について",
+    "notification": "年末年始（令和元年１２月２７日～令和２年１月６日）のごみの収集及び自己搬入について、以下のとおりお知らせします。<br><a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00106399-ugVyjD.pdf\" target=\"_blank\" >こちらを参照ください</a>"
+  },
+  {
+    "id": 13,
+    "notificationId": 6,
+    "languageId": 1,
+    "title": "About collection of the year-end and New Year garbage and carry-in",
+    "notification": "Garbage collection and carry-in from December 27, 2019 to January 6, 2020<br><a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00106399-ugVyjD.pdf\" target=\"_blank\" >see here</a>"
+  },
+  {
+    "id": 14,
+    "notificationId": 7,
+    "languageId": 0,
+    "title": "新型コロナウイルス感染症に関するごみの捨て方について",
+    "notification": "新型コロナウイルス感染症に関するごみの処理方法については、市ホームページをご覧いただき、適正な処理にご協力をお願いいたします。<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109909\" target=\"_blank\" >市ホームページ</a>"
+  },
+  {
+    "id": 15,
+    "notificationId": 7,
+    "languageId": 1,
+    "title": "About garbage disposal about COVID-19 infection",
+    "notification": "About disposal method of garbage about COVID-19 infection disease, please see city homepage and cooperate with appropriate disposal.<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109909\" target=\"_blank\" >city homepage</a>"
+  },
+  {
+    "id": 16,
+    "notificationId": 8,
+    "languageId": 0,
+    "title": "連休中のごみ収集について",
+    "notification": "連休中のごみ収集については市ホームぺージをご覧ください。<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109143\" target=\"_blank\" >市ホームページ</a>"
+  },
+  {
+    "id": 17,
+    "notificationId": 8,
+    "languageId": 1,
+    "title": "About collection of garbage during consecutive holidays",
+    "notification": "Please see the city homepage for garbage collection during consecutive holidays.<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109143\" target=\"_blank\" >city homepage</a>"
+  },
+  {
+    "id": 18,
+    "notificationId": 9,
+    "languageId": 0,
+    "title": "台風接近に伴うごみの収集について",
+    "notification": "台風接近時でも、原則、ごみの収集作業は実施します（※警報発令時、収集中止の場合あり。）。詳しくは市ホームページをご覧ください。<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=110405\" target=\"_blank\">市ホームページ</a>"
+  },
+  {
+    "id": 19,
+    "notificationId": 9,
+    "languageId": 1,
+    "title": "Collection of garbage associated with the approach of a typhoon",
+    "notification": "As a general rule, even if a typhoon approaches, garbage collection work will be carried out.（※If an alarm is issued, the collection may be aborted.）For more information, please visit the city's website.<br><a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=110405\" target=\"_blank\" >city homepage</a>"
+  },
+  {
+    "id": 20,
+    "notificationId": 10,
+    "languageId": 0,
+    "title": "お詫び",
+    "notification": "12月31日（木）および1月１日（金・祝）のカレンダー部分に収集日の表示がされている地区がありますが、これは誤りです。正しくは両日とも年末年始休業日で、収集はありませんのでご注意ください。なお、1月4日（月）から通常通り収集を行います。混乱をまねき、ご迷惑をおかけし申し訳ございません。"
+  },
+  {
+    "id": 21,
+    "notificationId": 10,
+    "languageId": 1,
+    "title": "Apology",
+    "notification": "In some districts, the collection date appears in the calendar part on Thursday, December 31st and Friday, January 1st, which is incorrect.Please note that we are closed during the year-end and New Year holidays and we do not collect them.In addition, we will collect it as usual from January 4th (Monday).We apologize for any inconvenience."
+  },
+  {
+    "id": 22,
+    "notificationId": 2,
+    "languageId": 2,
+    "title": "Đối với bộ sưu tập của GW",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00105972-cqnyc7.pdf\" target=\"_blank\"> Vui lòng tham khảo đây </a>"
+  },
+  {
+    "id": 23,
+    "notificationId": 4,
+    "languageId": 2,
+    "title": "Nó sẽ ngăn chặn các bộ sưu tập chai thùng rác tái chế, nhựa mềm do cơn bão tiếp cận",
+    "notification": "Bằng cách tiếp cận của cơn bão số 10, tái chế thùng rác lon và nhựa mềm vào ngày 15 (thứ năm), nó sẽ ngừng việc thu tái chế chai thải lon 16 tháng 8 (thứ Sáu). (Bởi vì có một nguy cơ rằng container phục hồi và các mảnh vụn bị tán xạ bởi các cơn gió mạnh.) <br> nhưng tôi xin lỗi, nếu bạn chờ đợi cho đến khi bộ sưu tập tiếp theo, xin vui lòng được thực hiện trực tiếp Nếu bạn đang ở trong một vội vàng. <a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=106423\" target=\"_blank\"> City Home </a>"
+  },
+  {
+    "id": 24,
+    "notificationId": 5,
+    "languageId": 2,
+    "title": "Đối với bảo trì của lịch bộ sưu tập",
+    "notification": "Chúng tôi đang trong Menten'nansu lịch bộ sưu tập. <br> là trong tất cả mọi người Chúng tôi xin lỗi vì sự bất tiện này, vui lòng đợi cho đến khi kết thúc việc bảo trì."
+  },
+  {
+    "id": 25,
+    "notificationId": 6,
+    "languageId": 2,
+    "title": "Đối với các bộ sưu tập của ngày lễ cuối năm và năm mới của rác và tự bốc",
+    "notification": "Đối với việc thu thập và tự tải thùng rác của cuối năm và ngày lễ năm mới (Ryowa năm đầu tiên ngày 27 tháng 12 - Ryowa 2 ngày 06 tháng một năm 2009), sẽ được công bố như sau. <br> <a href=\"https://www.city.sakaiminato.lg.jp/upload/user/00106399-ugVyjD.pdf\" target=\"_blank\"> Vui lòng tham khảo đây </a>"
+  },
+  {
+    "id": 26,
+    "notificationId": 7,
+    "languageId": 2,
+    "title": "Về làm thế nào để vứt bỏ rác trên nhiễm coronavirus mới",
+    "notification": "Đối với phương pháp xử lý rác thải cho việc lây nhiễm coronavirus mới, nhìn thấy trang chủ của thành phố, cảm ơn bạn đã hợp tác của bạn trong việc xử lý thích hợp. <br> <a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109909\" target=\"_blank\"> City Home </a>"
+  },
+  {
+    "id": 27,
+    "notificationId": 8,
+    "languageId": 2,
+    "title": "Đối với thu gom rác thải trong ngày lễ",
+    "notification": "Vui lòng tham khảo trang chủ thành phố cho thu gom rác thải trong những ngày nghỉ. <br> <a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=109143\" target=\"_blank\"> City Home </a>"
+  },
+  {
+    "id": 28,
+    "notificationId": 9,
+    "languageId": 2,
+    "title": "Về bộ sưu tập của rác do cơn bão tiếp cận",
+    "notification": "Ngay cả khi một cơn bão tiếp cận, về nguyên tắc, công việc thu gom rác thải sẽ được tiến hành (※ khi một báo động ban hành, có phải là trường hợp của bộ sưu tập ngưng.). Xin vui lòng xem website của thành phố. <br> <a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=110405\" target=\"_blank\"> City Home </a>"
+  },
+  {
+    "id": 29,
+    "notificationId": 10,
+    "languageId": 2,
+    "title": "lời xin lỗi",
+    "notification": "Có một huyện trong đó việc hiển thị các cập nhật bộ sưu tập với phần lịch là tháng mười hai 31 (thứ năm) và tháng 1 (kỳ nghỉ vàng), nhưng điều này là không chính xác. Chính xác trong cuối năm và ngày lễ năm mới vào cả hai ngày, xin vui lòng lưu ý rằng không có bộ sưu tập. Cần lưu ý, làm bộ sưu tập thông thường từ tháng 4 (thứ Hai). Dẫn đến sự nhầm lẫn, xin lỗi vì sự bất tiện."
+  }
+]

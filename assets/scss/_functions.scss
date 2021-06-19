@@ -1,0 +1,14 @@
+$tablet_width: 768px;
+$sp_width: 480px;
+
+@mixin tablet() {
+  @media screen and (min-width: $sp_width) {
+    @content;
+  }
+}
+
+@mixin pc() {
+  @media screen and (min-width: $tablet_width) {
+    @content;
+  }
+}

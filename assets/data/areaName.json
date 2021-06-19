@@ -1,0 +1,2738 @@
+[
+  {
+    "id": 0,
+    "areaId": 0,
+    "languageId": 0,
+    "areaName": "福定町"
+  },
+  {
+    "id": 1,
+    "areaId": 0,
+    "languageId": 1,
+    "areaName": "Fukusada-cho"
+  },
+  {
+    "id": 2,
+    "areaId": 1,
+    "languageId": 0,
+    "areaName": "竹内団地"
+  },
+  {
+    "id": 3,
+    "areaId": 1,
+    "languageId": 1,
+    "areaName": "Takenouchi housing complex"
+  },
+  {
+    "id": 4,
+    "areaId": 2,
+    "languageId": 0,
+    "areaName": "岬風会"
+  },
+  {
+    "id": 5,
+    "areaId": 2,
+    "languageId": 1,
+    "areaName": "Kofukai"
+  },
+  {
+    "id": 6,
+    "areaId": 3,
+    "languageId": 0,
+    "areaName": "昭花会"
+  },
+  {
+    "id": 7,
+    "areaId": 3,
+    "languageId": 1,
+    "areaName": "Shokakai"
+  },
+  {
+    "id": 8,
+    "areaId": 4,
+    "languageId": 0,
+    "areaName": "入朝会"
+  },
+  {
+    "id": 9,
+    "areaId": 4,
+    "languageId": 1,
+    "areaName": "Nyuchokai"
+  },
+  {
+    "id": 10,
+    "areaId": 5,
+    "languageId": 0,
+    "areaName": "東雲会"
+  },
+  {
+    "id": 11,
+    "areaId": 5,
+    "languageId": 1,
+    "areaName": "Shinonomekai"
+  },
+  {
+    "id": 12,
+    "areaId": 6,
+    "languageId": 0,
+    "areaName": "東本町会"
+  },
+  {
+    "id": 13,
+    "areaId": 6,
+    "languageId": 1,
+    "areaName": "Higashihonmachikai"
+  },
+  {
+    "id": 14,
+    "areaId": 7,
+    "languageId": 0,
+    "areaName": "昭和町"
+  },
+  {
+    "id": 15,
+    "areaId": 7,
+    "languageId": 1,
+    "areaName": "Showamachi"
+  },
+  {
+    "id": 16,
+    "areaId": 8,
+    "languageId": 0,
+    "areaName": "上道町８区"
+  },
+  {
+    "id": 17,
+    "areaId": 8,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho 8th district"
+  },
+  {
+    "id": 18,
+    "areaId": 9,
+    "languageId": 0,
+    "areaName": "竹内町"
+  },
+  {
+    "id": 19,
+    "areaId": 9,
+    "languageId": 1,
+    "areaName": "Takenouchi-cho"
+  },
+  {
+    "id": 20,
+    "areaId": 10,
+    "languageId": 0,
+    "areaName": "元町"
+  },
+  {
+    "id": 21,
+    "areaId": 10,
+    "languageId": 1,
+    "areaName": "Motomachi"
+  },
+  {
+    "id": 22,
+    "areaId": 11,
+    "languageId": 0,
+    "areaName": "湊町会"
+  },
+  {
+    "id": 23,
+    "areaId": 11,
+    "languageId": 1,
+    "areaName": "Minatomachikai"
+  },
+  {
+    "id": 24,
+    "areaId": 12,
+    "languageId": 0,
+    "areaName": "湊町会 A"
+  },
+  {
+    "id": 25,
+    "areaId": 12,
+    "languageId": 1,
+    "areaName": "Minatomachikai A"
+  },
+  {
+    "id": 26,
+    "areaId": 13,
+    "languageId": 0,
+    "areaName": "湊町会 B"
+  },
+  {
+    "id": 27,
+    "areaId": 13,
+    "languageId": 1,
+    "areaName": "Minatomachikai B"
+  },
+  {
+    "id": 28,
+    "areaId": 14,
+    "languageId": 0,
+    "areaName": "明治町会"
+  },
+  {
+    "id": 29,
+    "areaId": 14,
+    "languageId": 1,
+    "areaName": "Meijimachikai"
+  },
+  {
+    "id": 30,
+    "areaId": 15,
+    "languageId": 0,
+    "areaName": "新京町会"
+  },
+  {
+    "id": 31,
+    "areaId": 15,
+    "languageId": 1,
+    "areaName": "Shinkyomachikai"
+  },
+  {
+    "id": 32,
+    "areaId": 16,
+    "languageId": 0,
+    "areaName": "京町会"
+  },
+  {
+    "id": 33,
+    "areaId": 16,
+    "languageId": 1,
+    "areaName": "Kyomachikai"
+  },
+  {
+    "id": 34,
+    "areaId": 17,
+    "languageId": 0,
+    "areaName": "馬場崎町会"
+  },
+  {
+    "id": 35,
+    "areaId": 17,
+    "languageId": 1,
+    "areaName": "Babasakichokai"
+  },
+  {
+    "id": 36,
+    "areaId": 18,
+    "languageId": 0,
+    "areaName": "馬場崎町会 A"
+  },
+  {
+    "id": 37,
+    "areaId": 18,
+    "languageId": 1,
+    "areaName": "Babasakichokai A"
+  },
+  {
+    "id": 38,
+    "areaId": 19,
+    "languageId": 0,
+    "areaName": "馬場崎町会 B"
+  },
+  {
+    "id": 39,
+    "areaId": 19,
+    "languageId": 1,
+    "areaName": "Babasakichokai B"
+  },
+  {
+    "id": 40,
+    "areaId": 20,
+    "languageId": 0,
+    "areaName": "西馬場崎町会"
+  },
+  {
+    "id": 41,
+    "areaId": 20,
+    "languageId": 1,
+    "areaName": "Nishibabasakichokai"
+  },
+  {
+    "id": 42,
+    "areaId": 21,
+    "languageId": 0,
+    "areaName": "中野町"
+  },
+  {
+    "id": 43,
+    "areaId": 21,
+    "languageId": 1,
+    "areaName": "Nakano-cho"
+  },
+  {
+    "id": 44,
+    "areaId": 22,
+    "languageId": 0,
+    "areaName": "上道町１区"
+  },
+  {
+    "id": 45,
+    "areaId": 22,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 1"
+  },
+  {
+    "id": 46,
+    "areaId": 23,
+    "languageId": 0,
+    "areaName": "上道町１区 A"
+  },
+  {
+    "id": 47,
+    "areaId": 23,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 1 A"
+  },
+  {
+    "id": 48,
+    "areaId": 24,
+    "languageId": 0,
+    "areaName": "上道町１区 B"
+  },
+  {
+    "id": 49,
+    "areaId": 24,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 1 B"
+  },
+  {
+    "id": 50,
+    "areaId": 25,
+    "languageId": 0,
+    "areaName": "上道町２区"
+  },
+  {
+    "id": 51,
+    "areaId": 25,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 2"
+  },
+  {
+    "id": 52,
+    "areaId": 26,
+    "languageId": 0,
+    "areaName": "上道町２区 A"
+  },
+  {
+    "id": 53,
+    "areaId": 26,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 2 A"
+  },
+  {
+    "id": 54,
+    "areaId": 27,
+    "languageId": 0,
+    "areaName": "上道町２区 B"
+  },
+  {
+    "id": 55,
+    "areaId": 27,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 2 B"
+  },
+  {
+    "id": 56,
+    "areaId": 28,
+    "languageId": 0,
+    "areaName": "上道町３区"
+  },
+  {
+    "id": 57,
+    "areaId": 28,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 3"
+  },
+  {
+    "id": 58,
+    "areaId": 29,
+    "languageId": 0,
+    "areaName": "上道町３区 A"
+  },
+  {
+    "id": 59,
+    "areaId": 29,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 3 A"
+  },
+  {
+    "id": 60,
+    "areaId": 30,
+    "languageId": 0,
+    "areaName": "上道町３区 B"
+  },
+  {
+    "id": 61,
+    "areaId": 30,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 3 B"
+  },
+  {
+    "id": 62,
+    "areaId": 31,
+    "languageId": 0,
+    "areaName": "上道町４区"
+  },
+  {
+    "id": 63,
+    "areaId": 31,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 4"
+  },
+  {
+    "id": 64,
+    "areaId": 32,
+    "languageId": 0,
+    "areaName": "上道町４区 A"
+  },
+  {
+    "id": 65,
+    "areaId": 32,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 4 A"
+  },
+  {
+    "id": 66,
+    "areaId": 33,
+    "languageId": 0,
+    "areaName": "上道町４区 B"
+  },
+  {
+    "id": 67,
+    "areaId": 33,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 4 B"
+  },
+  {
+    "id": 68,
+    "areaId": 34,
+    "languageId": 0,
+    "areaName": "上道町５区"
+  },
+  {
+    "id": 69,
+    "areaId": 34,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 5"
+  },
+  {
+    "id": 70,
+    "areaId": 35,
+    "languageId": 0,
+    "areaName": "上道町５区 A"
+  },
+  {
+    "id": 71,
+    "areaId": 35,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 5 A"
+  },
+  {
+    "id": 72,
+    "areaId": 36,
+    "languageId": 0,
+    "areaName": "上道町５区 B"
+  },
+  {
+    "id": 73,
+    "areaId": 36,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 5 B"
+  },
+  {
+    "id": 74,
+    "areaId": 37,
+    "languageId": 0,
+    "areaName": "上道町６区"
+  },
+  {
+    "id": 75,
+    "areaId": 37,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 6"
+  },
+  {
+    "id": 76,
+    "areaId": 38,
+    "languageId": 0,
+    "areaName": "上道町６区 A"
+  },
+  {
+    "id": 77,
+    "areaId": 38,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 6 A"
+  },
+  {
+    "id": 78,
+    "areaId": 39,
+    "languageId": 0,
+    "areaName": "上道町６区 B"
+  },
+  {
+    "id": 79,
+    "areaId": 39,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 6 B"
+  },
+  {
+    "id": 80,
+    "areaId": 40,
+    "languageId": 0,
+    "areaName": "上道町７区"
+  },
+  {
+    "id": 81,
+    "areaId": 40,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 7"
+  },
+  {
+    "id": 82,
+    "areaId": 41,
+    "languageId": 0,
+    "areaName": "上道町７区 A"
+  },
+  {
+    "id": 83,
+    "areaId": 41,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 7 A"
+  },
+  {
+    "id": 84,
+    "areaId": 42,
+    "languageId": 0,
+    "areaName": "上道町７区 B"
+  },
+  {
+    "id": 85,
+    "areaId": 42,
+    "languageId": 1,
+    "areaName": "Agarimichi-cho District 7 B"
+  },
+  {
+    "id": 86,
+    "areaId": 43,
+    "languageId": 0,
+    "areaName": "自衛隊内官舎"
+  },
+  {
+    "id": 87,
+    "areaId": 43,
+    "languageId": 1,
+    "areaName": "The official residence of Self-Defense Forces"
+  },
+  {
+    "id": 88,
+    "areaId": 44,
+    "languageId": 0,
+    "areaName": "三軒屋町"
+  },
+  {
+    "id": 89,
+    "areaId": 44,
+    "languageId": 1,
+    "areaName": "Sangenya-cho"
+  },
+  {
+    "id": 90,
+    "areaId": 45,
+    "languageId": 0,
+    "areaName": "森岡町"
+  },
+  {
+    "id": 91,
+    "areaId": 45,
+    "languageId": 1,
+    "areaName": "Morioka-cho"
+  },
+  {
+    "id": 92,
+    "areaId": 46,
+    "languageId": 0,
+    "areaName": "芝町"
+  },
+  {
+    "id": 93,
+    "areaId": 46,
+    "languageId": 1,
+    "areaName": "Shiba-cho"
+  },
+  {
+    "id": 94,
+    "areaId": 47,
+    "languageId": 0,
+    "areaName": "芝町 A"
+  },
+  {
+    "id": 95,
+    "areaId": 47,
+    "languageId": 1,
+    "areaName": "Shiba-cho A"
+  },
+  {
+    "id": 96,
+    "areaId": 48,
+    "languageId": 0,
+    "areaName": "芝町 B"
+  },
+  {
+    "id": 97,
+    "areaId": 48,
+    "languageId": 1,
+    "areaName": "Shiba-cho B"
+  },
+  {
+    "id": 98,
+    "areaId": 49,
+    "languageId": 0,
+    "areaName": "夕日ヶ丘１丁目"
+  },
+  {
+    "id": 99,
+    "areaId": 49,
+    "languageId": 1,
+    "areaName": "Yuhigaoka 1st Street"
+  },
+  {
+    "id": 100,
+    "areaId": 50,
+    "languageId": 0,
+    "areaName": "幸神町"
+  },
+  {
+    "id": 101,
+    "areaId": 50,
+    "languageId": 1,
+    "areaName": "Koujin-cho"
+  },
+  {
+    "id": 102,
+    "areaId": 51,
+    "languageId": 0,
+    "areaName": "佐斐神町"
+  },
+  {
+    "id": 103,
+    "areaId": 51,
+    "languageId": 1,
+    "areaName": "Sainokami-cho"
+  },
+  {
+    "id": 104,
+    "areaId": 52,
+    "languageId": 0,
+    "areaName": "自衛隊"
+  },
+  {
+    "id": 105,
+    "areaId": 52,
+    "languageId": 1,
+    "areaName": "Self-Defense Forces"
+  },
+  {
+    "id": 108,
+    "areaId": 54,
+    "languageId": 0,
+    "areaName": "麦垣町"
+  },
+  {
+    "id": 109,
+    "areaId": 54,
+    "languageId": 1,
+    "areaName": "Mugikaki-cho"
+  },
+  {
+    "id": 110,
+    "areaId": 55,
+    "languageId": 0,
+    "areaName": "新屋町"
+  },
+  {
+    "id": 111,
+    "areaId": 55,
+    "languageId": 1,
+    "areaName": "Niiya-cho"
+  },
+  {
+    "id": 166,
+    "areaId": 83,
+    "languageId": 0,
+    "areaName": "財ノ木町"
+  },
+  {
+    "id": 167,
+    "areaId": 83,
+    "languageId": 1,
+    "areaName": "Sainoki-cho"
+  },
+  {
+    "id": 168,
+    "areaId": 84,
+    "languageId": 0,
+    "areaName": "小篠津町"
+  },
+  {
+    "id": 169,
+    "areaId": 84,
+    "languageId": 1,
+    "areaName": "Koshinodu-cho"
+  },
+  {
+    "id": 170,
+    "areaId": 85,
+    "languageId": 0,
+    "areaName": "小篠津町 A"
+  },
+  {
+    "id": 171,
+    "areaId": 85,
+    "languageId": 1,
+    "areaName": "Koshinodu-cho A"
+  },
+  {
+    "id": 172,
+    "areaId": 86,
+    "languageId": 0,
+    "areaName": "小篠津町 B"
+  },
+  {
+    "id": 173,
+    "areaId": 86,
+    "languageId": 1,
+    "areaName": "Koshinodu-cho B"
+  },
+  {
+    "id": 174,
+    "areaId": 87,
+    "languageId": 0,
+    "areaName": "渡町７区"
+  },
+  {
+    "id": 175,
+    "areaId": 87,
+    "languageId": 1,
+    "areaName": "Watari-cho District 7"
+  },
+  {
+    "id": 176,
+    "areaId": 88,
+    "languageId": 0,
+    "areaName": "渡町７区 A"
+  },
+  {
+    "id": 177,
+    "areaId": 88,
+    "languageId": 1,
+    "areaName": "Watari-cho District 7 A"
+  },
+  {
+    "id": 178,
+    "areaId": 89,
+    "languageId": 0,
+    "areaName": "渡町７区 B"
+  },
+  {
+    "id": 179,
+    "areaId": 89,
+    "languageId": 1,
+    "areaName": "Watari-cho District 7 B"
+  },
+  {
+    "id": 180,
+    "areaId": 90,
+    "languageId": 0,
+    "areaName": "渡町８区"
+  },
+  {
+    "id": 181,
+    "areaId": 90,
+    "languageId": 1,
+    "areaName": "Watari-cho District 8"
+  },
+  {
+    "id": 182,
+    "areaId": 91,
+    "languageId": 0,
+    "areaName": "渡町８区 A"
+  },
+  {
+    "id": 183,
+    "areaId": 91,
+    "languageId": 1,
+    "areaName": "Watari-cho District 8 A"
+  },
+  {
+    "id": 184,
+    "areaId": 92,
+    "languageId": 0,
+    "areaName": "渡町８区 B"
+  },
+  {
+    "id": 185,
+    "areaId": 92,
+    "languageId": 1,
+    "areaName": "Watari-cho District 8 B"
+  },
+  {
+    "id": 186,
+    "areaId": 93,
+    "languageId": 0,
+    "areaName": "渡町１６区"
+  },
+  {
+    "id": 187,
+    "areaId": 93,
+    "languageId": 1,
+    "areaName": "Watari-cho District 16"
+  },
+  {
+    "id": 188,
+    "areaId": 94,
+    "languageId": 0,
+    "areaName": "渡町１６区 A"
+  },
+  {
+    "id": 189,
+    "areaId": 94,
+    "languageId": 1,
+    "areaName": "Watari-cho District 16 A"
+  },
+  {
+    "id": 190,
+    "areaId": 95,
+    "languageId": 0,
+    "areaName": "渡町１６区 B"
+  },
+  {
+    "id": 191,
+    "areaId": 95,
+    "languageId": 1,
+    "areaName": "Watari-cho District 16 B"
+  },
+  {
+    "id": 192,
+    "areaId": 96,
+    "languageId": 0,
+    "areaName": "渡町１９区"
+  },
+  {
+    "id": 193,
+    "areaId": 96,
+    "languageId": 1,
+    "areaName": "Watari-cho District 19"
+  },
+  {
+    "id": 194,
+    "areaId": 97,
+    "languageId": 0,
+    "areaName": "渡町１９区 A"
+  },
+  {
+    "id": 195,
+    "areaId": 97,
+    "languageId": 1,
+    "areaName": "Watari-cho District 19 A"
+  },
+  {
+    "id": 196,
+    "areaId": 98,
+    "languageId": 0,
+    "areaName": "渡町１９区 B"
+  },
+  {
+    "id": 197,
+    "areaId": 98,
+    "languageId": 1,
+    "areaName": "Watari-cho District 19 B"
+  },
+  {
+    "id": 198,
+    "areaId": 99,
+    "languageId": 0,
+    "areaName": "渡町３区"
+  },
+  {
+    "id": 199,
+    "areaId": 99,
+    "languageId": 1,
+    "areaName": "Watari-cho District 3"
+  },
+  {
+    "id": 200,
+    "areaId": 100,
+    "languageId": 0,
+    "areaName": "渡町３区 A"
+  },
+  {
+    "id": 201,
+    "areaId": 100,
+    "languageId": 1,
+    "areaName": "Watari-cho District 3 A"
+  },
+  {
+    "id": 202,
+    "areaId": 101,
+    "languageId": 0,
+    "areaName": "渡町３区 B"
+  },
+  {
+    "id": 203,
+    "areaId": 101,
+    "languageId": 1,
+    "areaName": "Watari-cho District 3 B"
+  },
+  {
+    "id": 204,
+    "areaId": 102,
+    "languageId": 0,
+    "areaName": "渡町４区"
+  },
+  {
+    "id": 205,
+    "areaId": 102,
+    "languageId": 1,
+    "areaName": "Watari-cho District 4"
+  },
+  {
+    "id": 206,
+    "areaId": 103,
+    "languageId": 0,
+    "areaName": "渡町４区 A"
+  },
+  {
+    "id": 207,
+    "areaId": 103,
+    "languageId": 1,
+    "areaName": "Watari-cho District 4 A"
+  },
+  {
+    "id": 208,
+    "areaId": 104,
+    "languageId": 0,
+    "areaName": "渡町４区 B"
+  },
+  {
+    "id": 209,
+    "areaId": 104,
+    "languageId": 1,
+    "areaName": "Watari-cho District 4 B"
+  },
+  {
+    "id": 210,
+    "areaId": 105,
+    "languageId": 0,
+    "areaName": "渡町５区"
+  },
+  {
+    "id": 211,
+    "areaId": 105,
+    "languageId": 1,
+    "areaName": "Watari-cho District 5"
+  },
+  {
+    "id": 212,
+    "areaId": 106,
+    "languageId": 0,
+    "areaName": "渡町５区 A"
+  },
+  {
+    "id": 213,
+    "areaId": 106,
+    "languageId": 1,
+    "areaName": "Watari-cho District 5 A"
+  },
+  {
+    "id": 214,
+    "areaId": 107,
+    "languageId": 0,
+    "areaName": "渡町５区 B"
+  },
+  {
+    "id": 215,
+    "areaId": 107,
+    "languageId": 1,
+    "areaName": "Watari-cho District 5 B"
+  },
+  {
+    "id": 216,
+    "areaId": 108,
+    "languageId": 0,
+    "areaName": "渡町６区"
+  },
+  {
+    "id": 217,
+    "areaId": 108,
+    "languageId": 1,
+    "areaName": "Watari-cho District 6"
+  },
+  {
+    "id": 218,
+    "areaId": 109,
+    "languageId": 0,
+    "areaName": "渡町６区 A"
+  },
+  {
+    "id": 219,
+    "areaId": 109,
+    "languageId": 1,
+    "areaName": "Watari-cho District 6 A"
+  },
+  {
+    "id": 220,
+    "areaId": 110,
+    "languageId": 0,
+    "areaName": "渡町６区 B"
+  },
+  {
+    "id": 221,
+    "areaId": 110,
+    "languageId": 1,
+    "areaName": "Watari-cho District 6 B"
+  },
+  {
+    "id": 222,
+    "areaId": 111,
+    "languageId": 0,
+    "areaName": "渡町１４区"
+  },
+  {
+    "id": 223,
+    "areaId": 111,
+    "languageId": 1,
+    "areaName": "Watari-cho District 14"
+  },
+  {
+    "id": 224,
+    "areaId": 112,
+    "languageId": 0,
+    "areaName": "渡町１４区 A"
+  },
+  {
+    "id": 225,
+    "areaId": 112,
+    "languageId": 1,
+    "areaName": "Watari-cho District 14 A"
+  },
+  {
+    "id": 226,
+    "areaId": 113,
+    "languageId": 0,
+    "areaName": "渡町１４区 B"
+  },
+  {
+    "id": 227,
+    "areaId": 113,
+    "languageId": 1,
+    "areaName": "Watari-cho District 14 B"
+  },
+  {
+    "id": 228,
+    "areaId": 114,
+    "languageId": 0,
+    "areaName": "渡町１５区"
+  },
+  {
+    "id": 229,
+    "areaId": 114,
+    "languageId": 1,
+    "areaName": "Watari-cho District 15"
+  },
+  {
+    "id": 230,
+    "areaId": 115,
+    "languageId": 0,
+    "areaName": "渡町１５区 A"
+  },
+  {
+    "id": 231,
+    "areaId": 115,
+    "languageId": 1,
+    "areaName": "Watari-cho District 15 A"
+  },
+  {
+    "id": 232,
+    "areaId": 116,
+    "languageId": 0,
+    "areaName": "渡町１５区 B"
+  },
+  {
+    "id": 233,
+    "areaId": 116,
+    "languageId": 1,
+    "areaName": "Watari-cho District 15 B"
+  },
+  {
+    "id": 234,
+    "areaId": 117,
+    "languageId": 0,
+    "areaName": "渡町１区"
+  },
+  {
+    "id": 235,
+    "areaId": 117,
+    "languageId": 1,
+    "areaName": "Watari-cho District 1"
+  },
+  {
+    "id": 236,
+    "areaId": 118,
+    "languageId": 0,
+    "areaName": "渡町１区 A"
+  },
+  {
+    "id": 237,
+    "areaId": 118,
+    "languageId": 1,
+    "areaName": "Watari-cho District 1 A"
+  },
+  {
+    "id": 238,
+    "areaId": 119,
+    "languageId": 0,
+    "areaName": "渡町１区 B"
+  },
+  {
+    "id": 239,
+    "areaId": 119,
+    "languageId": 1,
+    "areaName": "Watari-cho District 1 B"
+  },
+  {
+    "id": 240,
+    "areaId": 120,
+    "languageId": 0,
+    "areaName": "渡町２区"
+  },
+  {
+    "id": 241,
+    "areaId": 120,
+    "languageId": 1,
+    "areaName": "Watari-cho District 2"
+  },
+  {
+    "id": 242,
+    "areaId": 121,
+    "languageId": 0,
+    "areaName": "渡町２区 A"
+  },
+  {
+    "id": 243,
+    "areaId": 121,
+    "languageId": 1,
+    "areaName": "Watari-cho District 2 A"
+  },
+  {
+    "id": 244,
+    "areaId": 122,
+    "languageId": 0,
+    "areaName": "渡町２区 B"
+  },
+  {
+    "id": 245,
+    "areaId": 122,
+    "languageId": 1,
+    "areaName": "Watari-cho District 2 B"
+  },
+  {
+    "id": 246,
+    "areaId": 123,
+    "languageId": 0,
+    "areaName": "渡町１１区"
+  },
+  {
+    "id": 247,
+    "areaId": 123,
+    "languageId": 1,
+    "areaName": "Watari-cho District 11"
+  },
+  {
+    "id": 248,
+    "areaId": 124,
+    "languageId": 0,
+    "areaName": "渡町１８区"
+  },
+  {
+    "id": 249,
+    "areaId": 124,
+    "languageId": 1,
+    "areaName": "Watari-cho District 18"
+  },
+  {
+    "id": 250,
+    "areaId": 125,
+    "languageId": 0,
+    "areaName": "夕日ヶ丘２丁目"
+  },
+  {
+    "id": 251,
+    "areaId": 125,
+    "languageId": 1,
+    "areaName": "Yuhigaoka 2nd Street"
+  },
+  {
+    "id": 252,
+    "areaId": 126,
+    "languageId": 0,
+    "areaName": "高松町"
+  },
+  {
+    "id": 253,
+    "areaId": 126,
+    "languageId": 1,
+    "areaName": "Takamatsu-cho"
+  },
+  {
+    "id": 254,
+    "areaId": 127,
+    "languageId": 0,
+    "areaName": "美保町"
+  },
+  {
+    "id": 255,
+    "areaId": 127,
+    "languageId": 1,
+    "areaName": "Miho-cho"
+  },
+  {
+    "id": 256,
+    "areaId": 128,
+    "languageId": 0,
+    "areaName": "蓮池町"
+  },
+  {
+    "id": 257,
+    "areaId": 128,
+    "languageId": 1,
+    "areaName": "Hasuike-cho"
+  },
+  {
+    "id": 258,
+    "areaId": 129,
+    "languageId": 0,
+    "areaName": "米川町"
+  },
+  {
+    "id": 259,
+    "areaId": 129,
+    "languageId": 1,
+    "areaName": "Yonegawa-cho"
+  },
+  {
+    "id": 260,
+    "areaId": 130,
+    "languageId": 0,
+    "areaName": "浜ノ町"
+  },
+  {
+    "id": 261,
+    "areaId": 130,
+    "languageId": 1,
+    "areaName": "Hamano-cho"
+  },
+  {
+    "id": 262,
+    "areaId": 131,
+    "languageId": 0,
+    "areaName": "弥生町"
+  },
+  {
+    "id": 263,
+    "areaId": 131,
+    "languageId": 1,
+    "areaName": "Yayoi-cho"
+  },
+  {
+    "id": 264,
+    "areaId": 132,
+    "languageId": 0,
+    "areaName": "清水町"
+  },
+  {
+    "id": 265,
+    "areaId": 132,
+    "languageId": 1,
+    "areaName": "Shimizu-cho"
+  },
+  {
+    "id": 266,
+    "areaId": 133,
+    "languageId": 0,
+    "areaName": "清水町 A"
+  },
+  {
+    "id": 267,
+    "areaId": 133,
+    "languageId": 1,
+    "areaName": "Shimizu-cho A"
+  },
+  {
+    "id": 268,
+    "areaId": 134,
+    "languageId": 0,
+    "areaName": "清水町 B"
+  },
+  {
+    "id": 269,
+    "areaId": 134,
+    "languageId": 1,
+    "areaName": "Shimizu-cho B"
+  },
+  {
+    "id": 270,
+    "areaId": 135,
+    "languageId": 0,
+    "areaName": "大正町会"
+  },
+  {
+    "id": 271,
+    "areaId": 135,
+    "languageId": 1,
+    "areaName": "Taishomachikai"
+  },
+  {
+    "id": 272,
+    "areaId": 136,
+    "languageId": 0,
+    "areaName": "京和会"
+  },
+  {
+    "id": 273,
+    "areaId": 136,
+    "languageId": 1,
+    "areaName": "Kyowakai"
+  },
+  {
+    "id": 274,
+    "areaId": 137,
+    "languageId": 0,
+    "areaName": "本京町会"
+  },
+  {
+    "id": 275,
+    "areaId": 137,
+    "languageId": 1,
+    "areaName": "Honkyomachikai"
+  },
+  {
+    "id": 276,
+    "areaId": 138,
+    "languageId": 0,
+    "areaName": "東京町会"
+  },
+  {
+    "id": 277,
+    "areaId": 138,
+    "languageId": 1,
+    "areaName": "Higashikyomachikai"
+  },
+  {
+    "id": 278,
+    "areaId": 139,
+    "languageId": 0,
+    "areaName": "誠道町"
+  },
+  {
+    "id": 279,
+    "areaId": 139,
+    "languageId": 1,
+    "areaName": "Seido-cho"
+  },
+  {
+    "id": 280,
+    "areaId": 140,
+    "languageId": 0,
+    "areaName": "北日ノ出会"
+  },
+  {
+    "id": 281,
+    "areaId": 140,
+    "languageId": 1,
+    "areaName": "Kitahinodekai"
+  },
+  {
+    "id": 282,
+    "areaId": 141,
+    "languageId": 0,
+    "areaName": "中日ノ出町会"
+  },
+  {
+    "id": 283,
+    "areaId": 141,
+    "languageId": 1,
+    "areaName": "Nakahinodechokai"
+  },
+  {
+    "id": 284,
+    "areaId": 142,
+    "languageId": 0,
+    "areaName": "南日ノ出町会"
+  },
+  {
+    "id": 285,
+    "areaId": 142,
+    "languageId": 1,
+    "areaName": "Minamihinodechokai"
+  },
+  {
+    "id": 286,
+    "areaId": 143,
+    "languageId": 0,
+    "areaName": "末広会"
+  },
+  {
+    "id": 287,
+    "areaId": 143,
+    "languageId": 1,
+    "areaName": "Suehirokai"
+  },
+  {
+    "id": 288,
+    "areaId": 144,
+    "languageId": 0,
+    "areaName": "中正会"
+  },
+  {
+    "id": 289,
+    "areaId": 144,
+    "languageId": 1,
+    "areaName": "Chuseikai"
+  },
+  {
+    "id": 290,
+    "areaId": 145,
+    "languageId": 0,
+    "areaName": "新道会"
+  },
+  {
+    "id": 291,
+    "areaId": 145,
+    "languageId": 1,
+    "areaName": "Shindokai"
+  },
+  {
+    "id": 292,
+    "areaId": 146,
+    "languageId": 0,
+    "areaName": "中相会"
+  },
+  {
+    "id": 293,
+    "areaId": 146,
+    "languageId": 1,
+    "areaName": "Chusokai"
+  },
+  {
+    "id": 294,
+    "areaId": 147,
+    "languageId": 0,
+    "areaName": "一心会"
+  },
+  {
+    "id": 295,
+    "areaId": 147,
+    "languageId": 1,
+    "areaName": "Isshinkai"
+  },
+  {
+    "id": 296,
+    "areaId": 148,
+    "languageId": 0,
+    "areaName": "銀座会"
+  },
+  {
+    "id": 297,
+    "areaId": 148,
+    "languageId": 1,
+    "areaName": "Ginzakai"
+  },
+  {
+    "id": 298,
+    "areaId": 149,
+    "languageId": 0,
+    "areaName": "朝日会"
+  },
+  {
+    "id": 299,
+    "areaId": 149,
+    "languageId": 1,
+    "areaName": "Asahikai"
+  },
+  {
+    "id": 300,
+    "areaId": 150,
+    "languageId": 0,
+    "areaName": "相生会"
+  },
+  {
+    "id": 301,
+    "areaId": 150,
+    "languageId": 1,
+    "areaName": "Aioikai"
+  },
+  {
+    "id": 302,
+    "areaId": 151,
+    "languageId": 0,
+    "areaName": "親善会"
+  },
+  {
+    "id": 303,
+    "areaId": 151,
+    "languageId": 1,
+    "areaName": "Shinzenkai"
+  },
+  {
+    "id": 304,
+    "areaId": 152,
+    "languageId": 0,
+    "areaName": "明広会"
+  },
+  {
+    "id": 305,
+    "areaId": 152,
+    "languageId": 1,
+    "areaName": "Meikokai"
+  },
+  {
+    "id": 306,
+    "areaId": 153,
+    "languageId": 0,
+    "areaName": "明生会"
+  },
+  {
+    "id": 307,
+    "areaId": 153,
+    "languageId": 1,
+    "areaName": "Meiseikai"
+  },
+  {
+    "id": 308,
+    "areaId": 154,
+    "languageId": 0,
+    "areaName": "相生同志会"
+  },
+  {
+    "id": 309,
+    "areaId": 154,
+    "languageId": 1,
+    "areaName": "Aioidoushikai"
+  },
+  {
+    "id": 310,
+    "areaId": 155,
+    "languageId": 0,
+    "areaName": "西相生会"
+  },
+  {
+    "id": 311,
+    "areaId": 155,
+    "languageId": 1,
+    "areaName": "Nishiaioikai"
+  },
+  {
+    "id": 312,
+    "areaId": 156,
+    "languageId": 0,
+    "areaName": "末広要会"
+  },
+  {
+    "id": 313,
+    "areaId": 156,
+    "languageId": 1,
+    "areaName": "Suehirokanamekai"
+  },
+  {
+    "id": 314,
+    "areaId": 157,
+    "languageId": 0,
+    "areaName": "本町会"
+  },
+  {
+    "id": 315,
+    "areaId": 157,
+    "languageId": 1,
+    "areaName": "Honmachikai"
+  },
+  {
+    "id": 316,
+    "areaId": 158,
+    "languageId": 0,
+    "areaName": "西本町会"
+  },
+  {
+    "id": 317,
+    "areaId": 158,
+    "languageId": 1,
+    "areaName": "Nishihonmachikai"
+  },
+  {
+    "id": 318,
+    "areaId": 159,
+    "languageId": 0,
+    "areaName": "栄町"
+  },
+  {
+    "id": 319,
+    "areaId": 159,
+    "languageId": 1,
+    "areaName": "Eimachi"
+  },
+  {
+    "id": 320,
+    "areaId": 160,
+    "languageId": 0,
+    "areaName": "松ヶ枝町"
+  },
+  {
+    "id": 321,
+    "areaId": 160,
+    "languageId": 1,
+    "areaName": "Matsugae-cho"
+  },
+  {
+    "id": 322,
+    "areaId": 161,
+    "languageId": 0,
+    "areaName": "外江町東自治会"
+  },
+  {
+    "id": 323,
+    "areaId": 161,
+    "languageId": 1,
+    "areaName": "Tonoechohigashi Residents' association"
+  },
+  {
+    "id": 324,
+    "areaId": 162,
+    "languageId": 0,
+    "areaName": "白尾自治会"
+  },
+  {
+    "id": 325,
+    "areaId": 162,
+    "languageId": 1,
+    "areaName": "Shirao Residents' association"
+  },
+  {
+    "id": 326,
+    "areaId": 163,
+    "languageId": 0,
+    "areaName": "白尾自治会 A"
+  },
+  {
+    "id": 327,
+    "areaId": 163,
+    "languageId": 1,
+    "areaName": "Shirao Residents' association A"
+  },
+  {
+    "id": 328,
+    "areaId": 164,
+    "languageId": 0,
+    "areaName": "白尾自治会 B"
+  },
+  {
+    "id": 329,
+    "areaId": 164,
+    "languageId": 1,
+    "areaName": "Shirao Residents' association B"
+  },
+  {
+    "id": 330,
+    "areaId": 165,
+    "languageId": 0,
+    "areaName": "えびす自治会"
+  },
+  {
+    "id": 331,
+    "areaId": 165,
+    "languageId": 1,
+    "areaName": "Ebisu Residents' association"
+  },
+  {
+    "id": 332,
+    "areaId": 166,
+    "languageId": 0,
+    "areaName": "えびす自治会 A"
+  },
+  {
+    "id": 333,
+    "areaId": 166,
+    "languageId": 1,
+    "areaName": "Ebisu Residents' association A"
+  },
+  {
+    "id": 334,
+    "areaId": 167,
+    "languageId": 0,
+    "areaName": "えびす自治会 B"
+  },
+  {
+    "id": 335,
+    "areaId": 167,
+    "languageId": 1,
+    "areaName": "Ebisu Residents' association B"
+  },
+  {
+    "id": 336,
+    "areaId": 168,
+    "languageId": 0,
+    "areaName": "中町自治会"
+  },
+  {
+    "id": 337,
+    "areaId": 168,
+    "languageId": 1,
+    "areaName": "Nakamachi Residents' association"
+  },
+  {
+    "id": 338,
+    "areaId": 169,
+    "languageId": 0,
+    "areaName": "中町自治会 A"
+  },
+  {
+    "id": 339,
+    "areaId": 169,
+    "languageId": 1,
+    "areaName": "Nakamachi Residents' association A"
+  },
+  {
+    "id": 340,
+    "areaId": 170,
+    "languageId": 0,
+    "areaName": "中町自治会 B"
+  },
+  {
+    "id": 341,
+    "areaId": 170,
+    "languageId": 1,
+    "areaName": "Nakamachi Residents' association B"
+  },
+  {
+    "id": 342,
+    "areaId": 171,
+    "languageId": 0,
+    "areaName": "外江町中央自治会"
+  },
+  {
+    "id": 343,
+    "areaId": 171,
+    "languageId": 1,
+    "areaName": "Tonoe-cho chuo Residents' association"
+  },
+  {
+    "id": 344,
+    "areaId": 172,
+    "languageId": 0,
+    "areaName": "外江町中央自治会 A"
+  },
+  {
+    "id": 345,
+    "areaId": 172,
+    "languageId": 1,
+    "areaName": "Tonoe-cho chuo Residents' association A"
+  },
+  {
+    "id": 346,
+    "areaId": 173,
+    "languageId": 0,
+    "areaName": "外江町中央自治会 B"
+  },
+  {
+    "id": 347,
+    "areaId": 173,
+    "languageId": 1,
+    "areaName": "Tonoe-cho chuo Residents' association B"
+  },
+  {
+    "id": 348,
+    "areaId": 174,
+    "languageId": 0,
+    "areaName": "外江西灘自治会"
+  },
+  {
+    "id": 349,
+    "areaId": 174,
+    "languageId": 1,
+    "areaName": "Tonoenishinada Residents' association"
+  },
+  {
+    "id": 350,
+    "areaId": 175,
+    "languageId": 0,
+    "areaName": "外江西灘自治会 A"
+  },
+  {
+    "id": 351,
+    "areaId": 175,
+    "languageId": 1,
+    "areaName": "Tonoenishinada Residents' association A"
+  },
+  {
+    "id": 352,
+    "areaId": 176,
+    "languageId": 0,
+    "areaName": "外江西灘自治会 B"
+  },
+  {
+    "id": 353,
+    "areaId": 176,
+    "languageId": 1,
+    "areaName": "Tonoenishinada Residents' association B"
+  },
+  {
+    "id": 354,
+    "areaId": 177,
+    "languageId": 0,
+    "areaName": "外江地区みなみ自治会"
+  },
+  {
+    "id": 355,
+    "areaId": 177,
+    "languageId": 1,
+    "areaName": "Tonoechikuminami Residents' association"
+  },
+  {
+    "id": 356,
+    "areaId": 178,
+    "languageId": 0,
+    "areaName": "外江地区みなみ自治会 A"
+  },
+  {
+    "id": 357,
+    "areaId": 178,
+    "languageId": 1,
+    "areaName": "Tonoechikuminami Residents' association A"
+  },
+  {
+    "id": 358,
+    "areaId": 179,
+    "languageId": 0,
+    "areaName": "外江地区みなみ自治会 B"
+  },
+  {
+    "id": 359,
+    "areaId": 179,
+    "languageId": 1,
+    "areaName": "Tonoechikuminami Residents' association B"
+  },
+  {
+    "id": 360,
+    "areaId": 0,
+    "languageId": 2,
+    "areaName": "Phố Fukusada"
+  },
+  {
+    "id": 361,
+    "areaId": 1,
+    "languageId": 2,
+    "areaName": "Khu chung cư Takenouchi"
+  },
+  {
+    "id": 362,
+    "areaId": 2,
+    "languageId": 2,
+    "areaName": "Khu dân cư Kofu"
+  },
+  {
+    "id": 363,
+    "areaId": 3,
+    "languageId": 2,
+    "areaName": "Khu dân cư Shoka"
+  },
+  {
+    "id": 364,
+    "areaId": 4,
+    "languageId": 2,
+    "areaName": "Khu dân cư Nyuchou"
+  },
+  {
+    "id": 365,
+    "areaId": 5,
+    "languageId": 2,
+    "areaName": "Khu dân cư Shinonome"
+  },
+  {
+    "id": 366,
+    "areaId": 6,
+    "languageId": 2,
+    "areaName": "Khu dân cư Higashimotomachi"
+  },
+  {
+    "id": 367,
+    "areaId": 7,
+    "languageId": 2,
+    "areaName": "Phố Showa"
+  },
+  {
+    "id": 368,
+    "areaId": 8,
+    "languageId": 2,
+    "areaName": "Khu 8 phố Agarimichi"
+  },
+  {
+    "id": 369,
+    "areaId": 9,
+    "languageId": 2,
+    "areaName": "Phố Takeuchi"
+  },
+  {
+    "id": 370,
+    "areaId": 10,
+    "languageId": 2,
+    "areaName": "Phố Motomachi"
+  },
+  {
+    "id": 371,
+    "areaId": 11,
+    "languageId": 2,
+    "areaName": "Khu dân cư Minato"
+  },
+  {
+    "id": 372,
+    "areaId": 12,
+    "languageId": 2,
+    "areaName": "Khu dân cư Meijicho"
+  },
+  {
+    "id": 373,
+    "areaId": 13,
+    "languageId": 2,
+    "areaName": "Khu dân cư Shikiyacho"
+  },
+  {
+    "id": 374,
+    "areaId": 14,
+    "languageId": 2,
+    "areaName": "Khu dân cư Kyomachi"
+  },
+  {
+    "id": 375,
+    "areaId": 15,
+    "languageId": 2,
+    "areaName": "Khu dân cư Babasakicho"
+  },
+  {
+    "id": 376,
+    "areaId": 16,
+    "languageId": 2,
+    "areaName": "Khu dân cư Babasakicho A"
+  },
+  {
+    "id": 377,
+    "areaId": 17,
+    "languageId": 2,
+    "areaName": "Khu dân cư Babasakicho B"
+  },
+  {
+    "id": 378,
+    "areaId": 18,
+    "languageId": 2,
+    "areaName": "Khu dân cư Nishibabasakicho"
+  },
+  {
+    "id": 379,
+    "areaId": 19,
+    "languageId": 2,
+    "areaName": "Phố Nakano"
+  },
+  {
+    "id": 380,
+    "areaId": 20,
+    "languageId": 2,
+    "areaName": "Khu 1 Phố Agarimichi"
+  },
+  {
+    "id": 381,
+    "areaId": 21,
+    "languageId": 2,
+    "areaName": "Khu 1A Phố Agarimichi"
+  },
+  {
+    "id": 382,
+    "areaId": 22,
+    "languageId": 2,
+    "areaName": "Khu 1B Phố Agarimichi"
+  },
+  {
+    "id": 383,
+    "areaId": 23,
+    "languageId": 2,
+    "areaName": "Khu 2 Phố Agarimichi"
+  },
+  {
+    "id": 384,
+    "areaId": 24,
+    "languageId": 2,
+    "areaName": "Khu 2A  Phố Agarimichi"
+  },
+  {
+    "id": 385,
+    "areaId": 25,
+    "languageId": 2,
+    "areaName": "Khu 2B  Phố Agarimichi"
+  },
+  {
+    "id": 386,
+    "areaId": 26,
+    "languageId": 2,
+    "areaName": "Khu 3 Phố Agarimichi"
+  },
+  {
+    "id": 387,
+    "areaId": 27,
+    "languageId": 2,
+    "areaName": "Khu 3A  Phố Agarimichi"
+  },
+  {
+    "id": 388,
+    "areaId": 28,
+    "languageId": 2,
+    "areaName": "Khu 3B  Phố Agarimichi"
+  },
+  {
+    "id": 389,
+    "areaId": 29,
+    "languageId": 2,
+    "areaName": "Khu 4 Phố Agarimichi"
+  },
+  {
+    "id": 390,
+    "areaId": 30,
+    "languageId": 2,
+    "areaName": "Khu 4A  Phố Agarimichi"
+  },
+  {
+    "id": 391,
+    "areaId": 31,
+    "languageId": 2,
+    "areaName": "Khu 4B  Phố Agarimichi"
+  },
+  {
+    "id": 392,
+    "areaId": 32,
+    "languageId": 2,
+    "areaName": "Khu 5 Phố Agarimichi"
+  },
+  {
+    "id": 393,
+    "areaId": 33,
+    "languageId": 2,
+    "areaName": "Khu 5A  Phố Agarimichi"
+  },
+  {
+    "id": 394,
+    "areaId": 34,
+    "languageId": 2,
+    "areaName": "Khu 5B  Phố Agarimichi"
+  },
+  {
+    "id": 395,
+    "areaId": 35,
+    "languageId": 2,
+    "areaName": "Khu 6 Phố Agarimichi"
+  },
+  {
+    "id": 396,
+    "areaId": 36,
+    "languageId": 2,
+    "areaName": "Khu 6A  Phố Agarimichi"
+  },
+  {
+    "id": 397,
+    "areaId": 37,
+    "languageId": 2,
+    "areaName": "Khu 6B  Phố Agarimichi"
+  },
+  {
+    "id": 398,
+    "areaId": 38,
+    "languageId": 2,
+    "areaName": "Khu 7 Phố Agarimichi"
+  },
+  {
+    "id": 399,
+    "areaId": 39,
+    "languageId": 2,
+    "areaName": "Khu 7A  Phố Agarimichi"
+  },
+  {
+    "id": 400,
+    "areaId": 40,
+    "languageId": 2,
+    "areaName": "Khu 7B  Phố Agarimichi"
+  },
+  {
+    "id": 401,
+    "areaId": 41,
+    "languageId": 2,
+    "areaName": "Cư xá tự vệ quân"
+  },
+  {
+    "id": 402,
+    "areaId": 42,
+    "languageId": 2,
+    "areaName": "Phố Sangenyacho"
+  },
+  {
+    "id": 403,
+    "areaId": 43,
+    "languageId": 2,
+    "areaName": "Phố Morioka"
+  },
+  {
+    "id": 404,
+    "areaId": 44,
+    "languageId": 2,
+    "areaName": "Khu 9 phố Watari"
+  },
+  {
+    "id": 405,
+    "areaId": 45,
+    "languageId": 2,
+    "areaName": "Khu 10 phố Watari"
+  },
+  {
+    "id": 406,
+    "areaId": 46,
+    "languageId": 2,
+    "areaName": "Phố Shiba"
+  },
+  {
+    "id": 407,
+    "areaId": 47,
+    "languageId": 2,
+    "areaName": "Khu A phố Shiba"
+  },
+  {
+    "id": 408,
+    "areaId": 48,
+    "languageId": 2,
+    "areaName": "Khu B phố Shiba"
+  },
+  {
+    "id": 409,
+    "areaId": 49,
+    "languageId": 2,
+    "areaName": "Khu phố 1 Yuhigaoka"
+  },
+  {
+    "id": 410,
+    "areaId": 50,
+    "languageId": 2,
+    "areaName": "Phố Kojin"
+  },
+  {
+    "id": 411,
+    "areaId": 51,
+    "languageId": 2,
+    "areaName": "Phố Sainokami"
+  },
+  {
+    "id": 412,
+    "areaId": 52,
+    "languageId": 2,
+    "areaName": "Tự vệ quân"
+  },
+  {
+    "id": 413,
+    "areaId": 54,
+    "languageId": 2,
+    "areaName": "Khu 11 phố Tonoe"
+  },
+  {
+    "id": 414,
+    "areaId": 55,
+    "languageId": 2,
+    "areaName": "Phố Mugikaki"
+  },
+  {
+    "id": 415,
+    "areaId": 83,
+    "languageId": 2,
+    "areaName": "Phố Niiya"
+  },
+  {
+    "id": 416,
+    "areaId": 84,
+    "languageId": 2,
+    "areaName": "Khu 3 phố Tonoe"
+  },
+  {
+    "id": 417,
+    "areaId": 85,
+    "languageId": 2,
+    "areaName": "Khu 3A phố Tonoe"
+  },
+  {
+    "id": 418,
+    "areaId": 86,
+    "languageId": 2,
+    "areaName": "Khu 3B phố Tonoe"
+  },
+  {
+    "id": 419,
+    "areaId": 87,
+    "languageId": 2,
+    "areaName": "Khu 4 phố Tonoe"
+  },
+  {
+    "id": 420,
+    "areaId": 88,
+    "languageId": 2,
+    "areaName": "Khu 4A phố Tonoe"
+  },
+  {
+    "id": 421,
+    "areaId": 89,
+    "languageId": 2,
+    "areaName": "Khu 4B phố Tonoe"
+  },
+  {
+    "id": 422,
+    "areaId": 90,
+    "languageId": 2,
+    "areaName": "Khu 5 phố Tonoe"
+  },
+  {
+    "id": 423,
+    "areaId": 91,
+    "languageId": 2,
+    "areaName": "Khu 5A phố Tonoe"
+  },
+  {
+    "id": 424,
+    "areaId": 92,
+    "languageId": 2,
+    "areaName": "Khu 5B phố Tonoe"
+  },
+  {
+    "id": 425,
+    "areaId": 93,
+    "languageId": 2,
+    "areaName": "Khu 6 phố Tonoe"
+  },
+  {
+    "id": 426,
+    "areaId": 94,
+    "languageId": 2,
+    "areaName": "Khu 6A phố Tonoe"
+  },
+  {
+    "id": 427,
+    "areaId": 95,
+    "languageId": 2,
+    "areaName": "Khu 6B phố Tonoe"
+  },
+  {
+    "id": 428,
+    "areaId": 96,
+    "languageId": 2,
+    "areaName": "Khu 7 phố Tonoe"
+  },
+  {
+    "id": 429,
+    "areaId": 97,
+    "languageId": 2,
+    "areaName": "Khu 7A phố Tonoe"
+  },
+  {
+    "id": 430,
+    "areaId": 98,
+    "languageId": 2,
+    "areaName": "Khu 7B phố Tonoe"
+  },
+  {
+    "id": 431,
+    "areaId": 99,
+    "languageId": 2,
+    "areaName": "Khu 8 phố Tonoe"
+  },
+  {
+    "id": 432,
+    "areaId": 100,
+    "languageId": 2,
+    "areaName": "Khu 8A phố Tonoe"
+  },
+  {
+    "id": 433,
+    "areaId": 101,
+    "languageId": 2,
+    "areaName": "Khu 8B phố Tonoe"
+  },
+  {
+    "id": 434,
+    "areaId": 102,
+    "languageId": 2,
+    "areaName": "Khu 9 phố Tonoe"
+  },
+  {
+    "id": 435,
+    "areaId": 103,
+    "languageId": 2,
+    "areaName": "Khu 9A phố Tonoe"
+  },
+  {
+    "id": 436,
+    "areaId": 104,
+    "languageId": 2,
+    "areaName": "Khu 9B phố Tonoe"
+  },
+  {
+    "id": 437,
+    "areaId": 105,
+    "languageId": 2,
+    "areaName": "Khu 10 phố Tonoe"
+  },
+  {
+    "id": 438,
+    "areaId": 106,
+    "languageId": 2,
+    "areaName": "Khu 10A phố Tonoe"
+  },
+  {
+    "id": 439,
+    "areaId": 107,
+    "languageId": 2,
+    "areaName": "Khu 10B phố Tonoe"
+  },
+  {
+    "id": 440,
+    "areaId": 108,
+    "languageId": 2,
+    "areaName": "Khu 12 phố Tonoe"
+  },
+  {
+    "id": 441,
+    "areaId": 109,
+    "languageId": 2,
+    "areaName": "Khu 12A phố Tonoe"
+  },
+  {
+    "id": 442,
+    "areaId": 110,
+    "languageId": 2,
+    "areaName": "Khu 12B phố Tonoe"
+  },
+  {
+    "id": 443,
+    "areaId": 111,
+    "languageId": 2,
+    "areaName": "Phố Sainoki"
+  },
+  {
+    "id": 444,
+    "areaId": 112,
+    "languageId": 2,
+    "areaName": "Phố Koshinozu"
+  },
+  {
+    "id": 445,
+    "areaId": 113,
+    "languageId": 2,
+    "areaName": "Khu 7 phố Watari"
+  },
+  {
+    "id": 446,
+    "areaId": 114,
+    "languageId": 2,
+    "areaName": "Khu 8 phố Watari"
+  },
+  {
+    "id": 447,
+    "areaId": 115,
+    "languageId": 2,
+    "areaName": "Khu 16 phố Watari"
+  },
+  {
+    "id": 448,
+    "areaId": 116,
+    "languageId": 2,
+    "areaName": "Khu 19 phố Watari"
+  },
+  {
+    "id": 449,
+    "areaId": 117,
+    "languageId": 2,
+    "areaName": "Khu 3 phố Watari"
+  },
+  {
+    "id": 450,
+    "areaId": 118,
+    "languageId": 2,
+    "areaName": "Khu 3A phố Watari"
+  },
+  {
+    "id": 451,
+    "areaId": 119,
+    "languageId": 2,
+    "areaName": "Khu 3B phố Watari"
+  },
+  {
+    "id": 452,
+    "areaId": 120,
+    "languageId": 2,
+    "areaName": "Khu 4 phố Watari"
+  },
+  {
+    "id": 453,
+    "areaId": 121,
+    "languageId": 2,
+    "areaName": "Khu 5 phố Watari"
+  },
+  {
+    "id": 454,
+    "areaId": 122,
+    "languageId": 2,
+    "areaName": "Khu 6 phố Watari"
+  },
+  {
+    "id": 455,
+    "areaId": 123,
+    "languageId": 2,
+    "areaName": "Khu 14 phố Watari"
+  },
+  {
+    "id": 456,
+    "areaId": 124,
+    "languageId": 2,
+    "areaName": "Khu 15 phố Watari"
+  },
+  {
+    "id": 457,
+    "areaId": 125,
+    "languageId": 2,
+    "areaName": "Khu 1 phố Watari"
+  },
+  {
+    "id": 458,
+    "areaId": 126,
+    "languageId": 2,
+    "areaName": "Khu 2 phố Watari"
+  },
+  {
+    "id": 459,
+    "areaId": 127,
+    "languageId": 2,
+    "areaName": "Khu 11 phố Watari"
+  },
+  {
+    "id": 460,
+    "areaId": 128,
+    "languageId": 2,
+    "areaName": "Khu 18 phố Watari"
+  },
+  {
+    "id": 461,
+    "areaId": 129,
+    "languageId": 2,
+    "areaName": "Khu phố 2 Yuhigaoka"
+  },
+  {
+    "id": 462,
+    "areaId": 130,
+    "languageId": 2,
+    "areaName": "Phố Takamatsu"
+  },
+  {
+    "id": 463,
+    "areaId": 131,
+    "languageId": 2,
+    "areaName": "Phố Miho"
+  },
+  {
+    "id": 464,
+    "areaId": 132,
+    "languageId": 2,
+    "areaName": "Phố Hasuike"
+  },
+  {
+    "id": 465,
+    "areaId": 133,
+    "languageId": 2,
+    "areaName": "Phố Yonekawa"
+  },
+  {
+    "id": 466,
+    "areaId": 134,
+    "languageId": 2,
+    "areaName": "Phố Hamano"
+  },
+  {
+    "id": 467,
+    "areaId": 135,
+    "languageId": 2,
+    "areaName": "Phố Yayoi"
+  },
+  {
+    "id": 468,
+    "areaId": 136,
+    "languageId": 2,
+    "areaName": "Phố Shimizu"
+  },
+  {
+    "id": 469,
+    "areaId": 137,
+    "languageId": 2,
+    "areaName": "Khu A phố Shimizu"
+  },
+  {
+    "id": 470,
+    "areaId": 138,
+    "languageId": 2,
+    "areaName": "Khu B phố Shimizu"
+  },
+  {
+    "id": 471,
+    "areaId": 139,
+    "languageId": 2,
+    "areaName": "Khu dân cư Taishomachi"
+  },
+  {
+    "id": 472,
+    "areaId": 140,
+    "languageId": 2,
+    "areaName": "Khu dân cư Kyowa"
+  },
+  {
+    "id": 473,
+    "areaId": 141,
+    "languageId": 2,
+    "areaName": "Khu dân cư  Suetsuguhonmachi"
+  },
+  {
+    "id": 474,
+    "areaId": 142,
+    "languageId": 2,
+    "areaName": "Khu dân cư Tokyo"
+  },
+  {
+    "id": 475,
+    "areaId": 143,
+    "languageId": 2,
+    "areaName": "Phố Seido"
+  },
+  {
+    "id": 476,
+    "areaId": 144,
+    "languageId": 2,
+    "areaName": "Khu dân cư phía bắc Hinodemachi"
+  },
+  {
+    "id": 477,
+    "areaId": 145,
+    "languageId": 2,
+    "areaName": "Khu dân cư ở giữa Hinodemachi"
+  },
+  {
+    "id": 478,
+    "areaId": 146,
+    "languageId": 2,
+    "areaName": "Khu dân cư phía nam Hinodemachi"
+  },
+  {
+    "id": 479,
+    "areaId": 147,
+    "languageId": 2,
+    "areaName": "Khu dân cư Suehiro"
+  },
+  {
+    "id": 480,
+    "areaId": 148,
+    "languageId": 2,
+    "areaName": "Khu dân cư Chusei"
+  },
+  {
+    "id": 481,
+    "areaId": 149,
+    "languageId": 2,
+    "areaName": "Khu dân cư Shindo"
+  },
+  {
+    "id": 482,
+    "areaId": 150,
+    "languageId": 2,
+    "areaName": "Khu dân cư Chuso"
+  },
+  {
+    "id": 483,
+    "areaId": 151,
+    "languageId": 2,
+    "areaName": "Khu dân cư Isshin"
+  },
+  {
+    "id": 484,
+    "areaId": 152,
+    "languageId": 2,
+    "areaName": "Khu dân cư Ginza"
+  },
+  {
+    "id": 485,
+    "areaId": 153,
+    "languageId": 2,
+    "areaName": "Khu dân cư Ashahi"
+  },
+  {
+    "id": 486,
+    "areaId": 154,
+    "languageId": 2,
+    "areaName": "Khu dân cư Aioi"
+  },
+  {
+    "id": 487,
+    "areaId": 155,
+    "languageId": 2,
+    "areaName": "Khu dân cư Shinzen"
+  },
+  {
+    "id": 488,
+    "areaId": 156,
+    "languageId": 2,
+    "areaName": "Khu dân cư Akihiro"
+  },
+  {
+    "id": 489,
+    "areaId": 157,
+    "languageId": 2,
+    "areaName": "Khu dân cư Meisei"
+  },
+  {
+    "id": 490,
+    "areaId": 158,
+    "languageId": 2,
+    "areaName": "Khu dân cư Aioidoshi"
+  },
+  {
+    "id": 491,
+    "areaId": 159,
+    "languageId": 2,
+    "areaName": "Khu dân cư Nishiaioi"
+  },
+  {
+    "id": 492,
+    "areaId": 160,
+    "languageId": 2,
+    "areaName": "Khu dân cư Suehiro"
+  },
+  {
+    "id": 493,
+    "areaId": 161,
+    "languageId": 2,
+    "areaName": "Khu dân cư Honmachi"
+  },
+  {
+    "id": 494,
+    "areaId": 162,
+    "languageId": 2,
+    "areaName": "Khu dân cư Nishihonmachi"
+  },
+  {
+    "id": 495,
+    "areaId": 163,
+    "languageId": 2,
+    "areaName": "Phố Sakae"
+  },
+  {
+    "id": 496,
+    "areaId": 164,
+    "languageId": 2,
+    "areaName": "Phố Matsugae"
+  },
+  {
+    "id": 497,
+    "areaId": 165,
+    "languageId": 2,
+    "areaName": "Ebisu Residents' association"
+  },
+  {
+    "id": 498,
+    "areaId": 166,
+    "languageId": 2,
+    "areaName": "Ebisu Residents' association A"
+  },
+  {
+    "id": 499,
+    "areaId": 167,
+    "languageId": 2,
+    "areaName": "Ebisu Residents' association B"
+  },
+  {
+    "id": 500,
+    "areaId": 168,
+    "languageId": 2,
+    "areaName": "Nakamachi Residents' association"
+  },
+  {
+    "id": 501,
+    "areaId": 169,
+    "languageId": 2,
+    "areaName": "Nakamachi Residents' association A"
+  },
+  {
+    "id": 502,
+    "areaId": 170,
+    "languageId": 2,
+    "areaName": "Nakamachi Residents' association B"
+  },
+  {
+    "id": 503,
+    "areaId": 171,
+    "languageId": 2,
+    "areaName": "Tonoe-cho chuo Residents' association"
+  },
+  {
+    "id": 504,
+    "areaId": 172,
+    "languageId": 2,
+    "areaName": "Tonoe-cho chuo Residents' association A"
+  },
+  {
+    "id": 505,
+    "areaId": 173,
+    "languageId": 2,
+    "areaName": "Tonoe-cho chuo Residents' association B"
+  },
+  {
+    "id": 506,
+    "areaId": 174,
+    "languageId": 2,
+    "areaName": "Tonoenishinada Residents' association"
+  },
+  {
+    "id": 507,
+    "areaId": 175,
+    "languageId": 2,
+    "areaName": "Tonoenishinada Residents' association A"
+  },
+  {
+    "id": 508,
+    "areaId": 176,
+    "languageId": 2,
+    "areaName": "Tonoenishinada Residents' association B"
+  },
+  {
+    "id": 509,
+    "areaId": 177,
+    "languageId": 2,
+    "areaName": "Tonoechikuminami Residents' association"
+  },
+  {
+    "id": 510,
+    "areaId": 178,
+    "languageId": 2,
+    "areaName": "Tonoechikuminami Residents' association A"
+  },
+  {
+    "id": 511,
+    "areaId": 179,
+    "languageId": 2,
+    "areaName": "Tonoechikuminami Residents' association B"
+  }
+]

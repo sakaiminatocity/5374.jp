@@ -1,0 +1,58 @@
+[
+  {
+    "id": 2,
+    "date": 20190315,
+    "beginDate": 20190315,
+    "endDate": 20190506,
+    "cautionFlag": 0
+  },
+  {
+    "id": 4,
+    "date": 20190813,
+    "beginDate": 20190813,
+    "endDate": 20190816,
+    "cautionFlag": 1
+  },
+  {
+    "id": 5,
+    "date": 20190901,
+    "beginDate": 20190901,
+    "endDate": 20190911,
+    "cautionFlag": 1
+  },
+  {
+    "id": 6,
+    "date": 20191202,
+    "beginDate": 20191202,
+    "endDate": 20200107,
+    "cautionFlag": 0
+  },
+  {
+    "id": 7,
+    "date": 20200427,
+    "beginDate": 20200427,
+    "endDate": 20200531,
+    "cautionFlag": 1
+  },
+  {
+    "id": 8,
+    "date": 20200427,
+    "beginDate": 20200427,
+    "endDate": 20200507,
+    "cautionFlag": 1
+  },
+  {
+    "id": 9,
+    "date": 20200904,
+    "beginDate": 20200904,
+    "endDate": 20200908,
+    "cautionFlag": 1
+  },
+  {
+    "id": 10,
+    "date": 20201230,
+    "beginDate": 20201230,
+    "endDate": 20210103,
+    "cautionFlag": 1
+  }
+]

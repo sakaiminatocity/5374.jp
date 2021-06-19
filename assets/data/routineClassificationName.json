@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "routineClassificationId": 0,
+    "languageId": 0,
+    "routineClassificationName": "可燃ごみ"
+  },
+  {
+    "id": 1,
+    "routineClassificationId": 0,
+    "languageId": 1,
+    "routineClassificationName": "Combustible waste"
+  },
+  {
+    "id": 2,
+    "routineClassificationId": 1,
+    "languageId": 0,
+    "routineClassificationName": "不燃ごみ"
+  },
+  {
+    "id": 3,
+    "routineClassificationId": 1,
+    "languageId": 1,
+    "routineClassificationName": "Nonburnable trash"
+  },
+  {
+    "id": 4,
+    "routineClassificationId": 2,
+    "languageId": 0,
+    "routineClassificationName": "ビン缶"
+  },
+  {
+    "id": 5,
+    "routineClassificationId": 2,
+    "languageId": 1,
+    "routineClassificationName": "Bottle can"
+  },
+  {
+    "id": 6,
+    "routineClassificationId": 3,
+    "languageId": 0,
+    "routineClassificationName": "有害ごみ"
+  },
+  {
+    "id": 7,
+    "routineClassificationId": 3,
+    "languageId": 1,
+    "routineClassificationName": "Hazardous waste"
+  },
+  {
+    "id": 8,
+    "routineClassificationId": 4,
+    "languageId": 0,
+    "routineClassificationName": "古紙類"
+  },
+  {
+    "id": 9,
+    "routineClassificationId": 4,
+    "languageId": 1,
+    "routineClassificationName": "Used paper"
+  },
+  {
+    "id": 10,
+    "routineClassificationId": 5,
+    "languageId": 0,
+    "routineClassificationName": "軟プラ類"
+  },
+  {
+    "id": 11,
+    "routineClassificationId": 5,
+    "languageId": 1,
+    "routineClassificationName": "Soft plastics"
+  },
+  {
+    "id": 12,
+    "routineClassificationId": 0,
+    "languageId": 2,
+    "routineClassificationName": "Rác cháy"
+  },
+  {
+    "id": 13,
+    "routineClassificationId": 1,
+    "languageId": 2,
+    "routineClassificationName": "Rác không cháy"
+  },
+  {
+    "id": 14,
+    "routineClassificationId": 2,
+    "languageId": 2,
+    "routineClassificationName": "Lọ, chai, lon"
+  },
+  {
+    "id": 15,
+    "routineClassificationId": 3,
+    "languageId": 2,
+    "routineClassificationName": "Rác độc hại"
+  },
+  {
+    "id": 16,
+    "routineClassificationId": 4,
+    "languageId": 2,
+    "routineClassificationName": "Các loại giấy cũ"
+  },
+  {
+    "id": 17,
+    "routineClassificationId": 5,
+    "languageId": 2,
+    "routineClassificationName": "Các loại nhựa dẻo"
+  }
+]
