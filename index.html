@@ -5,19 +5,18 @@
     <title>5374.jp - Sakaiminato -</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="境港市のゴミ回収情報を提供。">
-    <link rel="shortcut icon" href="./favicon.ico">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/customize.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/customize.css">
     <link rel="manifest" href="./manifest.json">
     <link rel="apple-touch-icon-precomposed" href="./img/manifest_icon-192.png">
     <script>
-      if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('serviceworker.js').then( registration => {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }).catch( err => {
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        }
+      // if('serviceWorker' in navigator){
+      //   navigator.serviceWorker.register('./5374.jp/serviceworker.js').then(function(){
+      //     console.log("Service Worker Registered");
+      //   });
+      // }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142201601-1"></script>
@@ -40,13 +39,13 @@
     <header id="header">
       <div class="inner-wrap">
         <div class="logo-img">
-          <img src="./assets/images/logo.jpg" alt="">
+          <img src="./img/logo.jpg" alt="">
           <br>
           &copy;<span class="l0">水木プロ</span>
         </div>
         <h1 class="app-title">5374.jp - Sakaiminato -</h1>
         <div class="navi-button">
-          <span class="material-icons">menu</span>
+          <i class="fas fa-bars"></i>
           <span>Menu</span>
         </div>
         <div class="search">
@@ -101,9 +100,7 @@
                 同じ町内・地区内でも住所によってゴミの収集日が異なる場合があります。<br>
                 詳しくは、環境衛生課(清掃センター)までお問い合わせください。
               </p>
-              <address>
-                <span class="material-icons">phone_in_talk</span>0859-42-3803
-              </address>
+              <address><i class="fas fa-phone-volume"></i>0859-42-3803</address>
             </div>
           </div>
           <div id="notification-function" class="notification-function">
@@ -144,7 +141,7 @@
             </div>
           </div>
           <div id="recycle-station" class="recycle-station">
-            <h2 class="l6 no">ごみ分別早見表は<a href="./assets/images/00105743-TEesoV.pdf" target="_blank">コチラ</a></h2>
+            <h2 class="l6 no">ごみ分別早見表は<a href="./img/00105743-TEesoV.pdf" target="_blank">コチラ</a></h2>
             <div class="accordion-no">
               <p class="l53 notes"></p>
             </div>
@@ -173,47 +170,21 @@
           <div id="bring-in" class="bring-in">
             <h2 class="l8">市の施設への搬入方法</h2>
             <div class="accordion">
-              <p class="l36">ごみの種類によって持ち込み先が異なります。<br>
-              <br>
-              <br>
-              粗大ごみ（布団類、衣類など）<br>
-              <br>
-              施設名	境港市清掃センター<br>
-              住所	〒684-0041 鳥取県境港市中野町２０８０<br>
-              電話番号	0859-42-3803<br>
-              受付曜日	月曜日～金曜日<br>
-              受付時間	8:45～17:00<br>
-              休日	土曜日・日曜日・祝日<br>
-              料金	10kgにつき170円<br>
-              <br>
-              粗大ごみ（家具類など）<br>
-              <br>
-              施設名	境港市リサイクルセンター<br>
-              住所	〒684-0076 鳥取県境港市夕日ヶ丘2丁目119−6<br>
-              電話番号	0859-45-8626<br>
-              受付曜日	月曜日～金曜日<br>
-              受付時間	8:45～17:00<br>
-              休日	土曜日・日曜日・祝日<br>
-              料金	10kgにつき170円</p>
+              <p class="l36">
+              </p>
             </div>
           </div>
           <div id="not-handle" class="not-handle">
             <h2 class="l9">市で収集・処理しないもの</h2>
             <div class="accordion">
-              <p class="l37">処理困難物等<br>
-              オートバイ、自動車（部品も含む）、タイヤ、ドラム缶、消火器、注射器、バッテリー、ペンキ、ガスボンベ、便器、洗面台、劇物容器、建築廃材、ガレキ等、魚網等の網類、農業用ビニール、ロープ、ボーリング用ボール、位牌、仏壇など<br>
-              <br>
-              そ　の　他<br>
-              家電リサイクル製品（テレビ・エアコン・洗濯機・衣類乾燥機・冷蔵庫・冷凍庫）、パソコン（本体・ディスプレイ一体型及びディスプレイ）</p>
+              <p class="l37"></p>
             </div>
           </div>
           <div id="inquiry" class="inquiry">
             <h2 class="l10">お問い合わせ</h2>
             <div class="accordion">
               <p class="l38">お問い合わせは環境衛生課（清掃センター）までお電話お願いします。</p>
-              <address class="tel">
-                <span class="material-icons">phone_in_talk</span>0859-42-3803
-              </address>
+              <address class="tel"><i class="fas fa-phone-volume"></i>0859-42-3803</address>
             </div>
           </div>
         </div>
@@ -225,7 +196,7 @@
       </div>
     </footer>
     <div id="gototop">
-      <span class="material-icons">arrow_upward</span>
+      <i class="fas fa-arrow-up"></i>
     </div>
     <div class="about-app">
       <h2 class="l39">このアプリについて</h2>
@@ -244,6 +215,6 @@
       <div class="close l43">閉じる</div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
