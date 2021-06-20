@@ -2,26 +2,24 @@
 
 $(() => {
   // マスターテーブル
-  let baseUrl = './data/';
+  let baseUrl = './assets/data/';
   let area = 'area';
   let areaName = 'areaName';
-  let center = 'center';
-  let centerName = 'centerName';
-  let classification = 'classification';
+  // let center = 'center';
+  // let centerName = 'centerName';
+  // let classification = 'classification';
   let classificationName = 'classificationName';
   let garbage = 'garbage';
   let garbageName = 'garbageName';
-  let routine = 'routine';
-  let routineClassification = 'routineClassification';
+  // let routine = 'routine';
+  let routineDetail = 'routineDetail';
+  // let routineClassification = 'routineClassification';
   let routineClassificationName = 'routineClassificationName';
-  let label = 'label';
+  // let label = 'label';
   let labelString = 'labelString';
   let notification = 'notification';
   let notificationString = 'notificationString';
   let language = 'language';
-
-  // 初回起動フラグ
-  let initFlag = -1;
 
   // 言語
   let lang = 0;
@@ -29,28 +27,37 @@ $(() => {
   let areaId1 = -1;
   let areaDivision = 0;
   let areaId2 = -1;
+  let routineId = 99;
+  // 他定数
+  const today = new Date();
+  // 他グローバル変数
+  let toDayYear = today.getFullYear();
+  let valYear = toDayYear;
+  let toDayMonth = today.getMonth();
+  let valMonth = toDayMonth;
+  let todayDay = today.getDate();
+  let limitYearMin = toDayMonth < 8 ? toDayYear - 1 : toDayYear;
+  let limitYearMax = toDayMonth < 8 ? toDayYear : toDayYear + 1;
+  let monthList = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  let weekList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-  // Cookie寿命：1年 31536000秒
-  const cookieLifespan = 31536000;
 
-  // Cookieデータ呼び出し
-  function loadCookie() {
-    let langFlag = document.cookie.indexOf('lang_5374.jp-sakaiminato');
-    let areaId1Flag = document.cookie.indexOf('areaId1_5374.jp-sakaiminato');
-    let areaId2Flag = document.cookie.indexOf('areaId2_5374.jp-sakaiminato');
-    let cookies = document.cookie.split(';');
-    let cookieList = {};
+  // localStrageデータ呼び出し
+  function loadLocalStrage() {
+    let langFlag = localStorage.getItem('lang_5374.jp-sakaiminato');
+    let areaId1Flag = localStorage.getItem('areaId1_5374.jp-sakaiminato');
+    let areaId2Flag = localStorage.getItem('areaId2_5374.jp-sakaiminato');
 
-    if (langFlag === -1) {
+    if (langFlag === null) {
       let language = (window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage).substr(0, 2);
       if (language === 'en') {
         lang = 1;
       }
       areaId1 = -1;
       areaId2 = -1;
-      document.cookie = 'lang_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
-      document.cookie = 'areaId1_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
-      document.cookie = 'areaId2_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
+      localStorage.setItem('lang_5374.jp-sakaiminato', -1);
+      localStorage.setItem('areaId1_5374.jp-sakaiminato', areaId1);
+      localStorage.setItem('areaId2_5374.jp-sakaiminato', areaId2);
       createSelectboxAreaId1();
       if (navigator.userAgent.indexOf('msie') != -1 || navigator.userAgent.indexOf('trident') != -1) {
 
@@ -61,28 +68,24 @@ $(() => {
         $('html, body').animate({ scrollTop: position }, speed, 'swing');
       }
     } else {
-      cookies.forEach((cookie) => {
-        cookieList[cookie.split('=')[0].replace('"', '').replace(' ', '')] = cookie.split('=')[1].replace('"', '').replace(' ', '');
-      });
       if (navigator.userAgent.indexOf('msie') != -1 || navigator.userAgent.indexOf('trident') != -1) {
-
       } else {
         $('.warning-message').hide();
       }
-      if (langFlag === -1) {
+      if (langFlag === null) {
         lang = 0;
       } else {
-        lang = parseInt(cookieList['lang_5374.jp-sakaiminato']);
+        lang = parseInt(langFlag);
       }
       createSelectboxAreaId1();
-      if (areaId1Flag === -1) {
+      if (areaId1Flag === null) {
         areaId1 = -1;
       } else {
-        areaId1 = parseInt(cookieList['areaId1_5374.jp-sakaiminato']);
-        if (areaId2Flag === -1) {
+        areaId1 = parseInt(areaId1Flag);
+        if (areaId2Flag === null) {
           areaId2 = -1;
         } else {
-          areaId2 = parseInt(cookieList['areaId2_5374.jp-sakaiminato']);
+          areaId2 = parseInt(areaId2Flag);
         }
         createSelectboxAreaId2();
       }
@@ -95,7 +98,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + language + '.json')
     ).done((data_a) => {
-      langTable = data_a[language];
+      langTable = data_a;
       langBox.append('<option value="-1">言語/Language</option>');
       langTable.forEach((langRecord) => {
         langBox.append('<option value="' + langRecord['id'] + '">' + langRecord['languageName'] + '</option>');
@@ -118,7 +121,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -129,8 +132,8 @@ $(() => {
         $.getJSON(baseUrl + area + '.json'),
         $.getJSON(baseUrl + areaName + '.json')
       ).done((data_a, data_b) => {
-        areaTable = data_a[0][area];
-        areaNameTable = data_b[0][areaName];
+        areaTable = data_a[0];
+        areaNameTable = data_b[0];
 
         areaTable.sort((a, b) => {
           if (a.sort < b.sort) return -1;
@@ -178,7 +181,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -190,8 +193,8 @@ $(() => {
           $.getJSON(baseUrl + area + '.json'),
           $.getJSON(baseUrl + areaName + '.json')
         ).done((data_a, data_b) => {
-          areaTable = data_a[0][area];
-          areaNameTable = data_b[0][areaName];
+          areaTable = data_a[0];
+          areaNameTable = data_b[0];
           areaDivision = 1;
           areaId2Box.append('<option value="-1">' + labels[45] + '</option>');
           areaTable.forEach((areaRecord) => {
@@ -219,7 +222,7 @@ $(() => {
           if (areaDivision === 0) {
             areaId2Box.empty();
             areaId2 = -1;
-            document.cookie = 'areaId2_5374.jp-sakaiminato=-1; max-age=' + cookieLifespan;
+            localStorage.setItem('areaId2_5374.jp-sakaiminato', areaId2);
             areaId2Box.hide();
             $('.area-inquiry').hide();
           } else {
@@ -236,22 +239,28 @@ $(() => {
   }
 
   function drawingCalendar() {
-    let calendarArea = $('.calendar');
-
-    let today = new Date();
-    let todayDay = today.getDate();
-    let firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
-    let toYear = today.getMonth() < 8 ? today.getFullYear() : today.getFullYear() + 1;
-
-    let monthDate = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    let isLeapYear = (y) => {
+    const isLeapYear = (y) => {
       return y % 4 === 0 && (y % 100 !== 0 || y % 400 === 0);
     };
+    const calendarArea = $('.calendar');
+    let i = 0, j = 0;
+    let toYear = toDayMonth < 8 ? toDayYear : toDayYear + 1;
+    let firstDay = new Date(valYear, valMonth, 1);
     let firstWeek = firstDay.getDay();
-
+    let todayWeek = today.getDay();
+    let valWeek = firstWeek;
     let thisArea = areaId2 === -1 ? areaId1 : areaId2;
+    let dateCount = 0;
+    let tableString = '';
+    let noticeString = '';
+    let loopCount = 0;
 
-    monthDate[1] = isLeapYear(firstDay.getFullYear()) ? 29 : 28;
+    let labels = [];
+    let cacheWeekArray = [];
+    let cacheDayArray = [];
+    let cacheRustArray = [];
+    let cacheTodayRout = 0;
+    let weekCount = [0, 0, 0, 0, 0, 0, 0];
 
     let calendar = [
       [
@@ -303,24 +312,18 @@ $(() => {
         ["", "", "", "", "", "", ""]
       ],
     ];
-    let catWeek = [];
-    let catDay = [];
     let todayRout = [];
+    let todayRoutDetail = [];
 
-    let i = 0, j = 0;
-    let loopCount = 0;
-    let dateCount = 0;
-    let tableString = '';
-    let noticeString = '';
+    monthList[1] = isLeapYear(firstDay.getFullYear()) ? 29 : 28;
 
-    let labels = [];
 
     calendarArea.empty();
 
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -329,48 +332,111 @@ $(() => {
       });
       if (((areaDivision !== 0) && (areaId2 !== -1)) || (areaDivision === 0)) {
         $.when(
-          $.getJSON(baseUrl + routine + '.json'),
-          $.getJSON(baseUrl + routineClassificationName + '.json')
-        ).done((data_a, data_b) => {
-          let routineTable = data_a[0][routine];
-          let routineClassificationNameTable = data_b[0][routineClassificationName];
+          $.getJSON(baseUrl + routineDetail + '.json'),
+          $.getJSON(baseUrl + routineClassificationName + '.json'),
+          $.getJSON(baseUrl + area + '.json')
+        ).done((data_a, data_b, data_c) => {
+          let routineDetailTable = data_a[0];
+          let routineClassificationNameTable = data_b[0];
+          let areaTable = data_c[0];
           let langRoutineClassificationName = [];
+          let weekRowCount = 0;
 
+          areaTable.forEach((areaRecode) => {
+            if (areaRecode['id'] === thisArea) {
+              routineId = areaRecode['routineId'];
+            }
+          });
           routineClassificationNameTable.forEach((routineClassificationNameRecord) => {
             if (routineClassificationNameRecord['languageId'] === lang) {
               langRoutineClassificationName.push(routineClassificationNameRecord['routineClassificationName']);
             }
           });
 
-          routineTable.forEach((routineRecord) => {
-            if (routineRecord['areaId'] === thisArea) {
-              if (routineRecord['year'] === toYear) {
-                if (routineRecord['month'][today.getMonth() < 8 ? today.getMonth() + 4 : today.getMonth() - 8] === 1) {
-                  let weeks = routineRecord['week'];
-                  let days = routineRecord['day'];
-                  let weekCount = 0;
-                  if (routineRecord['irregularFlag'] === 0) {
-                    catWeek[routineRecord['routineClassificationId']] = weeks;
-                    catDay[routineRecord['routineClassificationId']] = days;
+          routineDetailTable.forEach((routineDetailRecord) => {
+            weekRowCount = 0;
+            dateCount = 0;
+            valWeek = firstWeek;
+            weekCount = [0, 0, 0, 0, 0, 0, 0];
+            if (routineDetailRecord['routineId'] === routineId) {
+              if (routineDetailRecord['year'] === toYear) {
+                if (routineDetailRecord['month' + (valMonth + 1)] === 1) {
+                  while (dateCount < monthList[valMonth]) {
+                    weekCount[valWeek]++;
+                    if (routineDetailRecord['week'+ weekCount[valWeek]] === 1) {
+                      if (routineDetailRecord['day'+ weekList[valWeek]] === 1) {
+                        calendar[routineDetailRecord['routineClassificationId']][weekRowCount][valWeek] = '<span class="rout cat' + routineDetailRecord['routineClassificationId'] + '">' + langRoutineClassificationName[routineDetailRecord['routineClassificationId']] + '</span>';
+                      }
+                    }
+
+                    if (routineDetailRecord['week'+ weekCount[valWeek]] === 2) {
+                      if (routineDetailRecord['day'+ weekList[valWeek]] === 2) {
+                        calendar[routineDetailRecord['routineClassificationId']][weekRowCount][valWeek] = '';
+                      }
+                    }
+
+                    valWeek++;
+                    if (valWeek === 7) {
+                      valWeek = 0;
+                      weekRowCount++;
+                    }
+                    dateCount++;
                   }
-                  weeks.forEach((week) => {
-                    let dayCount = 0;
-                    days.forEach((day) => {
-                      if (week === 1 && day === 1) {
-                        calendar[routineRecord['routineClassificationId']][weekCount][dayCount] = '<span class="rout cat' + routineRecord['routineClassificationId'] + '">' + langRoutineClassificationName[routineRecord['routineClassificationId']] + '</span>';
-                      }
-                      if (week === 2 || day === 2) {
-                        calendar[routineRecord['routineClassificationId']][weekCount][dayCount] = '';
-                      }
-                      dayCount++;
-                    });
-                    weekCount++;
-                  });
                 }
               }
             }
           });
-          tableString += '<table class="calendar-table"><caption>' + today.getFullYear() + labels[16] + (today.getMonth() + 1) + labels[17] + '</caption><tbody>';
+
+          todayRout = [];
+          todayRoutDetail = [];
+          routineDetailTable.forEach((routineDetailRecord) => {
+            dateCount = 0;
+            cacheTodayRout = 99;
+            cacheRustArray = [];
+            cacheWeekArray = [];
+            cacheDayArray = [];
+            valWeek = firstWeek;
+            weekCount = [0, 0, 0, 0, 0, 0, 0];
+            if (routineDetailRecord['routineId'] === routineId) {
+              if (routineDetailRecord['irregularFlag'] === 0) {
+                if (routineDetailRecord['year'] === toYear) {
+                  if (routineDetailRecord['month' + (toDayMonth + 1)] === 1) {
+                    while (dateCount < monthList[toDayMonth]) {
+                      weekCount[valWeek]++;
+                      if (routineDetailRecord['week'+ weekCount[valWeek]] === 1) {
+                        if (routineDetailRecord['day'+ weekList[todayWeek]] === 1) {
+                          if (todayDay === dateCount) {
+                            cacheTodayRout = routineDetailRecord['routineClassificationId'];
+                          }
+                          cacheWeekArray.push(weekCount[valWeek]);
+                          cacheDayArray.push(todayWeek);
+                        }
+                      }
+                      valWeek++;
+                      if (valWeek === 7) {
+                        valWeek = 0;
+                      }
+                      dateCount++;
+                    }
+                    if (cacheTodayRout !== 99) {
+                      todayRout.push(cacheTodayRout);
+                      if(cacheWeekArray.length > 0) {
+                        cacheRustArray.push(Array.from(new Set(cacheWeekArray)));
+                      }
+                      if (cacheDayArray.length > 0) {
+                        cacheRustArray.push(Array.from(new Set(cacheDayArray)));
+                      }
+                      if (cacheRustArray.length > 0) {
+                        todayRoutDetail.push(cacheRustArray);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          });
+
+          tableString += '<table class="calendar-table"><caption><span id="prev_month" class="material-icons">arrow_left</span>' + valYear + labels[16] + (valMonth + 1) + labels[17] + '<span id="next_month" class="material-icons">arrow_right</span></caption><tbody>';
           tableString += '<tr><td><br>' + labels[18] + '</td><td><br>' + labels[19] + '</td><td><br>' + labels[20] + '</td><td><br>' + labels[21] + '</td><td><br>' + labels[22] + '</td><td><br>' + labels[23] + '</td><td><br>' + labels[24] + '</td></tr>'
           dateCount = 1;
           for (i = 0; i <= 5; i++) {
@@ -380,17 +446,12 @@ $(() => {
               if ((i === 0) && (j < firstWeek)) {
                 continue;
               }
-              if (dateCount <= monthDate[today.getMonth()]) {
+              if (dateCount <= monthList[valMonth]) {
                 tableString += '<span class="day">' + dateCount + '</span>';
-                loopCount = 0;
                 calendar.forEach((calendarCat) => {
                   if (calendarCat[i][j] !== '') {
                     tableString += calendarCat[i][j];
                   }
-                  if ((dateCount === todayDay) && (calendarCat[i][j] !== '')) {
-                    todayRout.push(loopCount);
-                  }
-                  loopCount++;
                 });
                 dateCount++;
               }
@@ -403,51 +464,95 @@ $(() => {
           if (todayRout.length > 0) {
             noticeString += '<div class="todayNotice"><h2>' + labels[25] + '</h2>';
           }
+          loopCount = 0;
+          todayRout = Array.from(new Set(todayRout));
           todayRout.forEach((routineClassificationId) => {
-            let weekCount = 1;
-            let weekAddCount = 0;
-            let dayAddCount = 0;
-            let weekDayCount = 0;
             let weekString = '';
+            let innerLoopCount = 0;
+            let loopAddCount = 0;
             let dateLang = [labels[18], labels[19], labels[20], labels[21], labels[22], labels[23], labels[24]];
             noticeString += '<h3>' + langRoutineClassificationName[routineClassificationId] + '</h3>';
-
+            cacheRustArray = [];
+            cacheRustArray = todayRoutDetail[loopCount];
             if (routineClassificationId === 3) {
               weekString += labels[26];
             } else {
               weekString += labels[27];
             }
-            catWeek[routineClassificationId].forEach((week) => {
-              if ((weekAddCount > 0) && (week === 1)) {
-                weekString += ',';
+            cacheRustArray.forEach((cacheArray) => {
+              if(innerLoopCount === 0) {
+                if (cacheArray.length >= 5) {
+                  weekString = labels[28];
+                } else {
+                  loopAddCount = 0;
+                  cacheArray.forEach((week)=> {
+                    if (loopAddCount > 0) {
+                      weekString += ',';
+                    }
+                    weekString += week;
+                    loopAddCount++;
+                  });
+                }
               }
-              if (week === 1) {
-                weekString += weekCount;
-                weekAddCount++;
+              if (innerLoopCount === 1) {
+                loopAddCount = 0;
+                cacheArray.forEach((day) => {
+                  if (loopAddCount > 0) {
+                    weekString += ',';
+                  }
+                  weekString += dateLang[day];
+                  loopAddCount++;
+                });
               }
-              weekCount++;
-            });
-            if (weekAddCount === 6) {
-              weekString = labels[28];
-            }
-            catDay[routineClassificationId].forEach((day) => {
-              if ((dayAddCount > 0) && (day === 1)) {
-                weekString += ',';
-              }
-              if (day === 1) {
-                weekString += dateLang[weekDayCount];
-                dayAddCount++;
-              }
-              weekDayCount++;
+              innerLoopCount++;
             });
             weekString += labels[29];
-            noticeString += '<p>' + weekString + ' ' + today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate() + '</p>';
+            noticeString += '<p>' + weekString + ' ' + toDayYear + '/' + (toDayMonth + 1) + '/' + todayDay + '</p>';
+            loopCount++;
           });
           if (todayRout.length > 0) {
             noticeString += '</div>';
           }
           calendarArea.append(noticeString);
-          calendarArea.append(tableString)
+          calendarArea.append(tableString);
+          if ((valYear === limitYearMin) && (valMonth === 8)) {
+            $('#prev_month').addClass('button_disabled');
+          } else {
+            $('#prev_month').removeClass('button_disabled');
+            $('#prev_month').on('click', function() {
+              if(valMonth > 0) {
+                if (
+                  (valYear > limitYearMin && valMonth < 8) ||
+                  (valYear === limitYearMin && valMonth > 8)
+                ) {
+                  valMonth--;
+                }
+              } else {
+                valMonth = 11;
+                valYear--;
+              }
+              drawingCalendar();
+            });
+          }
+          if ((valYear === limitYearMax) && (valMonth === 7)) {
+            $('#next_month').addClass('button_disabled');
+          } else {
+            $('#next_month').removeClass('button_disabled');
+            $('#next_month').on('click', function() {
+              if(valMonth < 11) {
+                if (
+                  (valYear < limitYearMax && valMonth > 7) ||
+                  (valYear === limitYearMax && valMonth < 7)
+                ) {
+                  valMonth++;
+                }
+              } else {
+                valMonth = 0;
+                valYear++;
+              }
+              drawingCalendar();
+            });
+          }
         });
       }
     });
@@ -458,8 +563,6 @@ $(() => {
     let notificationContent = '';
     let notificationCount = 0;
 
-    let today = new Date();
-
     let now = (today.getFullYear() * 10000) + ((today.getMonth() + 1) * 100) + today.getDate();
 
     let labels = [];
@@ -469,7 +572,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -481,8 +584,8 @@ $(() => {
         $.getJSON(baseUrl + notification + '.json'),
         $.getJSON(baseUrl + notificationString + '.json')
       ).done((data_a, data_b) => {
-        let notificationTable = data_a[0][notification];
-        let notificationStringTable = data_b[0][notificationString];
+        let notificationTable = data_a[0];
+        let notificationStringTable = data_b[0];
 
         notificationTable.sort((a, b) => {
           if (a.date > b.date) return -1;
@@ -538,7 +641,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -550,8 +653,8 @@ $(() => {
         $.getJSON(baseUrl + notification + '.json'),
         $.getJSON(baseUrl + notificationString + '.json')
       ).done((data_a, data_b) => {
-        let notificationTable = data_a[0][notification];
-        let notificationStringTable = data_b[0][notificationString];
+        let notificationTable = data_a[0];
+        let notificationStringTable = data_b[0];
 
         notificationTable.sort((a, b) => {
           if (a.date > b.date) return -1;
@@ -600,7 +703,7 @@ $(() => {
   //   $.when(
   //     $.getJSON(baseUrl + labelString + '.json')
   //   ).done( (data_a) => {
-  //     let labelTable = data_a[labelString];
+  //     let labelTable = data_a;
   //
   //     labelTable.forEach( (labelRecord) => {
   //       if (labelRecord['languageId'] === lang) {
@@ -612,8 +715,8 @@ $(() => {
   //       $.getJSON(baseUrl + center + '.json'),
   //       $.getJSON(baseUrl + centerName + '.json')
   //     ).done( (data_a, data_b) => {
-  //       let centerTable = data_a[0][center];
-  //       let centerNameTable = data_b[0][centerName];
+  //       let centerTable = data_a[0];
+  //       let centerNameTable = data_b[0];
   //
   //       centerTable.forEach( (centerRecord) => {
   //         centerNameTable.forEach( (centerNameRecord) => {
@@ -622,7 +725,7 @@ $(() => {
   //               centerArea.append('<hr>')
   //             }
   //             centerArea.append('<h3>' + centerNameRecord['centerName'] + '</h3>');
-  //             centerArea.append('<img src="./img/' + centerRecord['image'] + '" alt="">');
+  //             centerArea.append('<img src="./assets/images/' + centerRecord['image'] + '" alt="">');
   //             centerArea.append('<address><p>'+ centerNameRecord['address'] +'</p><p><i class="fas fa-phone-volume"></i>' + centerRecord['phoneNum'] + '</p></address>');
   //             centerCount++;
   //           }
@@ -638,7 +741,7 @@ $(() => {
     $.when(
       $.getJSON(baseUrl + labelString + '.json')
     ).done((data_a) => {
-      let labelTable = data_a[labelString];
+      let labelTable = data_a;
 
       labelTable.forEach((labelRecord) => {
         if (labelRecord['languageId'] === lang) {
@@ -678,7 +781,7 @@ $(() => {
     });
   }
 
-  loadCookie();
+  loadLocalStrage();
   createSelectboxLang();
   loadWarning();
   loadNotification();
@@ -743,7 +846,7 @@ $(() => {
     if (lang === -1) {
       lang = 0;
     }
-    document.cookie = 'lang_5374.jp-sakaiminato=' + lang + '; max-age=' + cookieLifespan;
+    localStorage.setItem('lang_5374.jp-sakaiminato', lang);
 
     loadWarning();
     loadNotification();
@@ -757,14 +860,14 @@ $(() => {
 
   $('#area-id1').change((e) => {
     areaId1 = parseInt($('#area-id1').val());
-    document.cookie = 'areaId1_5374.jp-sakaiminato=' + areaId1 + '; max-age=' + cookieLifespan;
+    localStorage.setItem('areaId1_5374.jp-sakaiminato', areaId1);
     areaId2 = -1;
     createSelectboxAreaId2();
   });
 
   $('#area-id2').change((e) => {
     areaId2 = parseInt($('#area-id2').val());
-    document.cookie = 'areaId2_5374.jp-sakaiminato=' + areaId2 + '; max-age=' + cookieLifespan;
+    localStorage.setItem('areaId2_5374.jp-sakaiminato', areaId2);
     drawingCalendar();
   });
 
@@ -780,7 +883,7 @@ $(() => {
       $.when(
         $.getJSON(baseUrl + labelString + '.json')
       ).done((data_a) => {
-        let labelTable = data_a[labelString];
+        let labelTable = data_a;
 
         labelTable.forEach((labelRecord) => {
           if (labelRecord['languageId'] === lang) {
@@ -793,9 +896,9 @@ $(() => {
           $.getJSON(baseUrl + garbageName + '.json'),
           $.getJSON(baseUrl + classificationName + '.json')
         ).done((data_a, data_b, data_c) => {
-          let garbageTable = data_a[0][garbage];
-          let garbageNameTable = data_b[0][garbageName];
-          let classificationNameTable = data_c[0][classificationName];
+          let garbageTable = data_a[0];
+          let garbageNameTable = data_b[0];
+          let classificationNameTable = data_c[0];
 
           let classificationNameLang = {};
 

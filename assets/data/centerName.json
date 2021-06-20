@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "centerId": 0,
+    "languageId": 0,
+    "centerName": "環境衛生課(清掃センター)",
+    "address": "〒684-0041 鳥取県境港市中野町2080"
+  },
+  {
+    "id": 1,
+    "centerId": 0,
+    "languageId": 1,
+    "centerName": "Environmental Hygiene Division (Cleaning Center)",
+    "address": "2080, Nakanocho, Sakaiminato-shi, Tottori, 684-0041, Japan"
+  },
+  {
+    "id": 2,
+    "centerId": 0,
+    "languageId": 2,
+    "centerName": "Phòng vệ sinh môi trường (trung tâm xử lí)",
+    "address": "Mã bưu chính 684-0041,Số 2080 phố Nakano thành phố Sakaiminato tỉnh Tottori"
+  }
+]

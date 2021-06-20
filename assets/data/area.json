@@ -1,0 +1,1218 @@
+[
+  {
+    "id": 0,
+    "sort": 960,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 1
+  },
+  {
+    "id": 1,
+    "sort": 650,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 0
+  },
+  {
+    "id": 2,
+    "sort": 360,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 2
+  },
+  {
+    "id": 3,
+    "sort": 520,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 2
+  },
+  {
+    "id": 4,
+    "sort": 880,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 2
+  },
+  {
+    "id": 5,
+    "sort": 450,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 2
+  },
+  {
+    "id": 6,
+    "sort": 950,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 2
+  },
+  {
+    "id": 7,
+    "sort": 530,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 3
+  },
+  {
+    "id": 8,
+    "sort": 240,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 4
+  },
+  {
+    "id": 9,
+    "sort": 660,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 5
+  },
+  {
+    "id": 10,
+    "sort": 1090,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 6
+  },
+  {
+    "id": 11,
+    "sort": 1000,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 12,
+    "sort": 1010,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 13,
+    "sort": 1020,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 14,
+    "sort": 1070,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 15,
+    "sort": 570,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 16,
+    "sort": 320,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 17,
+    "sort": 900,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 18,
+    "sort": 910,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 19,
+    "sort": 920,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 20,
+    "sort": 860,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 7
+  },
+  {
+    "id": 21,
+    "sort": 790,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 8
+  },
+  {
+    "id": 22,
+    "sort": 30,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 23,
+    "sort": 40,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 24,
+    "sort": 50,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 25,
+    "sort": 60,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 26,
+    "sort": 70,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 27,
+    "sort": 80,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 28,
+    "sort": 90,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 29,
+    "sort": 100,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 30,
+    "sort": 110,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 31,
+    "sort": 120,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 32,
+    "sort": 130,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 33,
+    "sort": 140,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 34,
+    "sort": 150,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 35,
+    "sort": 160,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 36,
+    "sort": 170,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 37,
+    "sort": 180,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 38,
+    "sort": 190,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 39,
+    "sort": 200,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 40,
+    "sort": 210,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 41,
+    "sort": 220,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 42,
+    "sort": 230,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 9
+  },
+  {
+    "id": 43,
+    "sort": 440,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 11
+  },
+  {
+    "id": 44,
+    "sort": 420,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 10
+  },
+  {
+    "id": 45,
+    "sort": 1100,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 10
+  },
+  {
+    "id": 46,
+    "sort": 460,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 47,
+    "sort": 470,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 12
+  },
+  {
+    "id": 48,
+    "sort": 480,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 13
+  },
+  {
+    "id": 49,
+    "sort": 1120,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 11
+  },
+  {
+    "id": 50,
+    "sort": 350,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 14
+  },
+  {
+    "id": 51,
+    "sort": 400,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 15
+  },
+  {
+    "id": 52,
+    "sort": 430,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 15
+  },
+  {
+    "id": 54,
+    "sort": 1050,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 17
+  },
+  {
+    "id": 55,
+    "sort": 840,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 17
+  },
+  {
+    "id": 83,
+    "sort": 410,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 21
+  },
+  {
+    "id": 84,
+    "sort": 370,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 85,
+    "sort": 380,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 20
+  },
+  {
+    "id": 86,
+    "sort": 390,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 20
+  },
+  {
+    "id": 87,
+    "sort": 1470,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 88,
+    "sort": 1480,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 22
+  },
+  {
+    "id": 89,
+    "sort": 1490,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 23
+  },
+  {
+    "id": 90,
+    "sort": 1500,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 91,
+    "sort": 1510,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 22
+  },
+  {
+    "id": 92,
+    "sort": 1520,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 23
+  },
+  {
+    "id": 93,
+    "sort": 1220,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 94,
+    "sort": 1230,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 22
+  },
+  {
+    "id": 95,
+    "sort": 1240,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 23
+  },
+  {
+    "id": 96,
+    "sort": 1260,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 97,
+    "sort": 1270,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 22
+  },
+  {
+    "id": 98,
+    "sort": 1280,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 23
+  },
+  {
+    "id": 99,
+    "sort": 1350,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 100,
+    "sort": 1360,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 101,
+    "sort": 1370,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 102,
+    "sort": 1380,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 103,
+    "sort": 1390,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 104,
+    "sort": 1400,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 105,
+    "sort": 1410,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 106,
+    "sort": 1420,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 107,
+    "sort": 1430,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 108,
+    "sort": 1440,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 109,
+    "sort": 1450,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 110,
+    "sort": 1460,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 111,
+    "sort": 1160,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 112,
+    "sort": 1170,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 113,
+    "sort": 1180,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 114,
+    "sort": 1190,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 115,
+    "sort": 1200,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 24
+  },
+  {
+    "id": 116,
+    "sort": 1210,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 25
+  },
+  {
+    "id": 117,
+    "sort": 1290,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 118,
+    "sort": 1300,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 27
+  },
+  {
+    "id": 119,
+    "sort": 1310,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 28
+  },
+  {
+    "id": 120,
+    "sort": 1320,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 121,
+    "sort": 1330,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 27
+  },
+  {
+    "id": 122,
+    "sort": 1340,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 28
+  },
+  {
+    "id": 123,
+    "sort": 1150,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 29
+  },
+  {
+    "id": 124,
+    "sort": 1250,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 29
+  },
+  {
+    "id": 125,
+    "sort": 1130,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 26
+  },
+  {
+    "id": 126,
+    "sort": 640,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 31
+  },
+  {
+    "id": 127,
+    "sort": 1040,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 31
+  },
+  {
+    "id": 128,
+    "sort": 890,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 32
+  },
+  {
+    "id": 129,
+    "sort": 1140,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 32
+  },
+  {
+    "id": 130,
+    "sort": 930,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 32
+  },
+  {
+    "id": 131,
+    "sort": 1110,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 32
+  },
+  {
+    "id": 132,
+    "sort": 490,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 133,
+    "sort": 500,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 34
+  },
+  {
+    "id": 134,
+    "sort": 510,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 35
+  },
+  {
+    "id": 135,
+    "sort": 630,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 33
+  },
+  {
+    "id": 136,
+    "sort": 330,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 33
+  },
+  {
+    "id": 137,
+    "sort": 970,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 33
+  },
+  {
+    "id": 138,
+    "sort": 940,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 33
+  },
+  {
+    "id": 139,
+    "sort": 620,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 36
+  },
+  {
+    "id": 140,
+    "sort": 310,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 141,
+    "sort": 800,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 142,
+    "sort": 1030,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 143,
+    "sort": 600,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 144,
+    "sort": 670,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 145,
+    "sort": 590,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 146,
+    "sort": 680,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 147,
+    "sort": 260,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 148,
+    "sort": 340,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 149,
+    "sort": 250,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 150,
+    "sort": 10,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 151,
+    "sort": 580,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 152,
+    "sort": 1060,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 153,
+    "sort": 1080,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 154,
+    "sort": 20,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 155,
+    "sort": 850,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 156,
+    "sort": 610,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 157,
+    "sort": 980,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 158,
+    "sort": 870,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 38
+  },
+  {
+    "id": 159,
+    "sort": 270,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 39
+  },
+  {
+    "id": 160,
+    "sort": 990,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 39
+  },
+  {
+    "id": 161,
+    "sort": 750,
+    "areaType": "-",
+    "areaDivision": 0,
+    "centerId": 0,
+    "routineId": 16
+  },
+  {
+    "id": 162,
+    "sort": 540,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 163,
+    "sort": 550,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 164,
+    "sort": 560,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  },
+  {
+    "id": 165,
+    "sort": 280,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 166,
+    "sort": 290,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 167,
+    "sort": 300,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  },
+  {
+    "id": 168,
+    "sort": 810,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 169,
+    "sort": 820,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 170,
+    "sort": 830,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  },
+  {
+    "id": 171,
+    "sort": 720,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 172,
+    "sort": 730,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 173,
+    "sort": 740,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  },
+  {
+    "id": 174,
+    "sort": 760,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 175,
+    "sort": 770,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 176,
+    "sort": 780,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  },
+  {
+    "id": 177,
+    "sort": 690,
+    "areaType": "-",
+    "areaDivision": 1,
+    "centerId": 0,
+    "routineId": 99
+  },
+  {
+    "id": 178,
+    "sort": 700,
+    "areaType": "A",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 18
+  },
+  {
+    "id": 179,
+    "sort": 710,
+    "areaType": "B",
+    "areaDivision": 2,
+    "centerId": 0,
+    "routineId": 19
+  }
+]

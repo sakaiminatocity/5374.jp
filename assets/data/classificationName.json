@@ -1,0 +1,434 @@
+[
+  {
+    "id": 0,
+    "classificationId": 0,
+    "languageId": 0,
+    "classificationName": "可燃"
+  },
+  {
+    "id": 1,
+    "classificationId": 0,
+    "languageId": 1,
+    "classificationName": "Burning"
+  },
+  {
+    "id": 2,
+    "classificationId": 1,
+    "languageId": 0,
+    "classificationName": "家電４品目対象"
+  },
+  {
+    "id": 3,
+    "classificationId": 1,
+    "languageId": 1,
+    "classificationName": "Appliances for home appliances 4 items"
+  },
+  {
+    "id": 4,
+    "classificationId": 2,
+    "languageId": 0,
+    "classificationName": "古紙類「ダンボール紙」"
+  },
+  {
+    "id": 5,
+    "classificationId": 2,
+    "languageId": 1,
+    "classificationName": "Used paper \"cardboard paper\""
+  },
+  {
+    "id": 6,
+    "classificationId": 3,
+    "languageId": 0,
+    "classificationName": "古紙類「雑誌・チラシ」"
+  },
+  {
+    "id": 7,
+    "classificationId": 3,
+    "languageId": 1,
+    "classificationName": "Used paper \"magazines / leaflets\""
+  },
+  {
+    "id": 8,
+    "classificationId": 4,
+    "languageId": 0,
+    "classificationName": "古紙類「新聞紙・折込チラシ」"
+  },
+  {
+    "id": 9,
+    "classificationId": 4,
+    "languageId": 1,
+    "classificationName": "Used paper \"newspaper / insert-in leaflet\""
+  },
+  {
+    "id": 10,
+    "classificationId": 5,
+    "languageId": 0,
+    "classificationName": "古紙類「本・雑誌」"
+  },
+  {
+    "id": 11,
+    "classificationId": 5,
+    "languageId": 1,
+    "classificationName": "Used paper \"book / magazine\""
+  },
+  {
+    "id": 12,
+    "classificationId": 6,
+    "languageId": 0,
+    "classificationName": "古紙類「本・雑誌類」「ダンボール紙」"
+  },
+  {
+    "id": 13,
+    "classificationId": 6,
+    "languageId": 1,
+    "classificationName": "Used paper \"book / magazine\""
+  },
+  {
+    "id": 14,
+    "classificationId": 7,
+    "languageId": 0,
+    "classificationName": "材質に応じて各区分へ"
+  },
+  {
+    "id": 15,
+    "classificationId": 7,
+    "languageId": 1,
+    "classificationName": "Depending on the material, to each category"
+  },
+  {
+    "id": 16,
+    "classificationId": 8,
+    "languageId": 0,
+    "classificationName": "材質に応じて各区分へ（小型家電リサイクル対象の場合あり）"
+  },
+  {
+    "id": 17,
+    "classificationId": 8,
+    "languageId": 1,
+    "classificationName": "Depending on the material to each category (subject to recycling of small household appliances)"
+  },
+  {
+    "id": 18,
+    "classificationId": 9,
+    "languageId": 0,
+    "classificationName": "市では処理できません"
+  },
+  {
+    "id": 19,
+    "classificationId": 9,
+    "languageId": 1,
+    "classificationName": "I can not handle it in the city"
+  },
+  {
+    "id": 20,
+    "classificationId": 10,
+    "languageId": 0,
+    "classificationName": "資源ごみビン缶類"
+  },
+  {
+    "id": 21,
+    "classificationId": 10,
+    "languageId": 1,
+    "classificationName": "Resource waste bottle cans"
+  },
+  {
+    "id": 22,
+    "classificationId": 11,
+    "languageId": 0,
+    "classificationName": "小型家電リサイクル対象"
+  },
+  {
+    "id": 23,
+    "classificationId": 11,
+    "languageId": 1,
+    "classificationName": "Subject to recycling of small household appliances"
+  },
+  {
+    "id": 24,
+    "classificationId": 12,
+    "languageId": 0,
+    "classificationName": "粗大"
+  },
+  {
+    "id": 25,
+    "classificationId": 12,
+    "languageId": 1,
+    "classificationName": "Coarse"
+  },
+  {
+    "id": 26,
+    "classificationId": 13,
+    "languageId": 0,
+    "classificationName": "粗大（小型家電リサイクル対象）"
+  },
+  {
+    "id": 27,
+    "classificationId": 13,
+    "languageId": 1,
+    "classificationName": "Coarse (subject to small home appliance recycling)"
+  },
+  {
+    "id": 28,
+    "classificationId": 14,
+    "languageId": 0,
+    "classificationName": "粗大（小型家電リサイクル対象の場合あり）"
+  },
+  {
+    "id": 29,
+    "classificationId": 14,
+    "languageId": 1,
+    "classificationName": "Coarse (may be subject to small household appliance recycling)"
+  },
+  {
+    "id": 30,
+    "classificationId": 15,
+    "languageId": 0,
+    "classificationName": "軟質プラスチック類"
+  },
+  {
+    "id": 31,
+    "classificationId": 15,
+    "languageId": 1,
+    "classificationName": "Soft plastics"
+  },
+  {
+    "id": 32,
+    "classificationId": 16,
+    "languageId": 0,
+    "classificationName": "廃食油"
+  },
+  {
+    "id": 33,
+    "classificationId": 16,
+    "languageId": 1,
+    "classificationName": "Waste edible oil"
+  },
+  {
+    "id": 34,
+    "classificationId": 17,
+    "languageId": 0,
+    "classificationName": "白色トレイ"
+  },
+  {
+    "id": 35,
+    "classificationId": 17,
+    "languageId": 1,
+    "classificationName": "White tray"
+  },
+  {
+    "id": 36,
+    "classificationId": 18,
+    "languageId": 0,
+    "classificationName": "不燃"
+  },
+  {
+    "id": 37,
+    "classificationId": 18,
+    "languageId": 1,
+    "classificationName": "Non-burn"
+  },
+  {
+    "id": 38,
+    "classificationId": 19,
+    "languageId": 0,
+    "classificationName": "不燃（小型家電リサイクル対象）"
+  },
+  {
+    "id": 39,
+    "classificationId": 19,
+    "languageId": 1,
+    "classificationName": "Noncombustible (subject to small household appliance recycling)"
+  },
+  {
+    "id": 40,
+    "classificationId": 20,
+    "languageId": 0,
+    "classificationName": "不燃（小型家電リサイクル対象の場合あり）"
+  },
+  {
+    "id": 41,
+    "classificationId": 20,
+    "languageId": 1,
+    "classificationName": "Noncombustible (may be subject to small home appliances recycling)"
+  },
+  {
+    "id": 42,
+    "classificationId": 21,
+    "languageId": 0,
+    "classificationName": "不燃又は家電４品目対象"
+  },
+  {
+    "id": 43,
+    "classificationId": 21,
+    "languageId": 1,
+    "classificationName": "Nonflammable or home appliances 4 items"
+  },
+  {
+    "id": 44,
+    "classificationId": 22,
+    "languageId": 0,
+    "classificationName": "有害"
+  },
+  {
+    "id": 45,
+    "classificationId": 22,
+    "languageId": 1,
+    "classificationName": "Harmful"
+  },
+  {
+    "id": 46,
+    "classificationId": 23,
+    "languageId": 0,
+    "classificationName": "ペットボトル"
+  },
+  {
+    "id": 47,
+    "classificationId": 23,
+    "languageId": 1,
+    "classificationName": "PET bottles"
+  },
+  {
+    "id": 48,
+    "classificationId": 0,
+    "languageId": 2,
+    "classificationName": "rác cháy"
+  },
+  {
+    "id": 49,
+    "classificationId": 1,
+    "languageId": 2,
+    "classificationName": "đối tượng là 4 loại đồ điện gia dụng"
+  },
+  {
+    "id": 50,
+    "classificationId": 2,
+    "languageId": 2,
+    "classificationName": "Các loại giấy cũ 「bìa cát tông」"
+  },
+  {
+    "id": 51,
+    "classificationId": 3,
+    "languageId": 2,
+    "classificationName": "Các loại giấy cũ 「Tạp chí・tờ rơi」"
+  },
+  {
+    "id": 52,
+    "classificationId": 4,
+    "languageId": 2,
+    "classificationName": "Các loại giấy cũ 「báo・tờ rơi」"
+  },
+  {
+    "id": 53,
+    "classificationId": 5,
+    "languageId": 2,
+    "classificationName": "Các loại giấy cũ 「sách・tạp chí」"
+  },
+  {
+    "id": 54,
+    "classificationId": 6,
+    "languageId": 2,
+    "classificationName": "Các loại giấy cũ 「sách・tạp chí」「bìa cát tông」"
+  },
+  {
+    "id": 55,
+    "classificationId": 7,
+    "languageId": 2,
+    "classificationName": "Ứng với loại vật chất sẽ được đưa đến các khu khác nhau"
+  },
+  {
+    "id": 56,
+    "classificationId": 8,
+    "languageId": 2,
+    "classificationName": "Ứng với loại vật chất sẽ được đưa đến các khu khác nhau"
+  },
+  {
+    "id": 57,
+    "classificationId": 9,
+    "languageId": 2,
+    "classificationName": "Không thể xử lí ở thành phố được"
+  },
+  {
+    "id": 58,
+    "classificationId": 10,
+    "languageId": 2,
+    "classificationName": "Rác tái chế các loại chai lọ,lon"
+  },
+  {
+    "id": 59,
+    "classificationId": 11,
+    "languageId": 2,
+    "classificationName": "Đói tượng tái chế là đồ điện gia dụng loại nhỏ"
+  },
+  {
+    "id": 60,
+    "classificationId": 12,
+    "languageId": 2,
+    "classificationName": "Rác loại lớn"
+  },
+  {
+    "id": 61,
+    "classificationId": 13,
+    "languageId": 2,
+    "classificationName": "Rác loại lớn (Đối tượng tái chế là các đồ điện nhỏ trong gia đình)"
+  },
+  {
+    "id": 62,
+    "classificationId": 14,
+    "languageId": 2,
+    "classificationName": "Rác loại lớn (có trường hợp đối tượng tái chế là các đồ điện nhỏ trong gia đình」"
+  },
+  {
+    "id": 63,
+    "classificationId": 15,
+    "languageId": 2,
+    "classificationName": "Các loại nhựa mềm"
+  },
+  {
+    "id": 64,
+    "classificationId": 16,
+    "languageId": 2,
+    "classificationName": "Dầu ăn thừa"
+  },
+  {
+    "id": 65,
+    "classificationId": 17,
+    "languageId": 2,
+    "classificationName": "Khay đựng đồ ăn màu trắng"
+  },
+  {
+    "id": 66,
+    "classificationId": 18,
+    "languageId": 2,
+    "classificationName": "Rác không cháy"
+  },
+  {
+    "id": 67,
+    "classificationId": 19,
+    "languageId": 2,
+    "classificationName": "Rác không cháy(Đồ điện gia dụng có thể tía chế)"
+  },
+  {
+    "id": 68,
+    "classificationId": 20,
+    "languageId": 2,
+    "classificationName": "Rác không cháy(Có trường hợp là đồ điện gia dụng có thể tái chế)"
+  },
+  {
+    "id": 69,
+    "classificationId": 21,
+    "languageId": 2,
+    "classificationName": "Rác không cháy hoặc 4 loại đồ điện gia dụng nhỏ trong gia đình"
+  },
+  {
+    "id": 70,
+    "classificationId": 22,
+    "languageId": 2,
+    "classificationName": "Có hại,rác có hại"
+  },
+  {
+    "id": 71,
+    "classificationId": 23,
+    "languageId": 2,
+    "classificationName": "Chai nhựa"
+  }
+]

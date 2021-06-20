@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6,7 +7,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese");
 html {
   line-height: 1.15;
   /* 1 */
@@ -365,15 +365,15 @@ img {
 }
 
 input {
-  -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 select {
-  -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .warning-message {
@@ -383,11 +383,11 @@ select {
 }
 
 .warning-message h2 {
-  font-size: 200%;
+  font-size: 2em;
 }
 
 .warning-message p {
-  font-size: 150%;
+  font-size: 1.5em;
 }
 
 #header {
@@ -416,7 +416,7 @@ select {
 }
 
 #header .logo-img {
-  font-size: 75%;
+  font-size: .75em;
   text-align: center;
 }
 
@@ -433,7 +433,7 @@ select {
   width: 54px;
   height: 54px;
   color: #dceaf8;
-  font-size: 62.5%;
+  font-size: .625em;
   background: #72aae2;
   border: 2px solid #dceaf8;
   display: -webkit-box;
@@ -458,21 +458,22 @@ select {
   opacity: .8;
 }
 
-@media (min-width: 768px) {
-  #header .navi-button {
-    display: none;
-  }
-}
-
-#header .navi-button i {
-  font-size: 320%;
+#header .navi-button .material-icons {
+  font-size: 3.2em;
 }
 
 #header .navi-button .close {
   display: none;
 }
 
-#header .search {
+@media screen and (min-width: 768px) {
+  #header .navi-button {
+    display: none;
+  }
+}
+
+#header .navi-button
+.search {
   width: 100%;
   margin-top: 30px;
 }
@@ -480,7 +481,7 @@ select {
 #header .search h2 {
   width: 80%;
   color: white;
-  font-size: 75%;
+  font-size: .75em;
   font-weight: normal;
   margin: 0 auto;
 }
@@ -492,10 +493,10 @@ select {
 }
 
 #header .search .search-textbox::before {
-  content: '';
+  content: 'search';
   color: black;
-  font-size: 100%;
-  font-family: 'Font Awesome 5 Free';
+  font-size: 1em;
+  font-family: 'Material Icons';
   font-weight: bold;
   position: absolute;
   top: 0.35em;
@@ -505,7 +506,7 @@ select {
 #header .search .search-textbox input[type="text"] {
   width: calc(100% - 2.3em);
   color: black;
-  font-size: 100%;
+  font-size: 1em;
   background: #ccc;
   border: 1px solid black;
   border-radius: 4px;
@@ -514,7 +515,7 @@ select {
 
 #header .search .search-result {
   width: 90%;
-  font-size: 87.5%;
+  font-size: .875em;
   margin: 15px 5% 0;
 }
 
@@ -544,10 +545,10 @@ select {
 }
 
 #header .search .result-ele::before {
-  content: '';
+  content: 'keyboard_arrow_down';
   color: black;
   font-size: 100%;
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Material Icons';
   font-weight: bold;
   position: absolute;
   top: 0.4em;
@@ -555,7 +556,7 @@ select {
 }
 
 #header .search .result-ele.close::before {
-  content: '';
+  content: 'keyboard_arrow_right';
 }
 
 #header .search .result-ele.close .garbage-notice {
@@ -723,12 +724,29 @@ select {
   padding: 10px 0;
 }
 
+#main .calendar-table caption .material-icons {
+  font-size: 3em;
+  vertical-align: middle;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#main .calendar-table caption .material-icons:hover {
+  opacity: .8;
+}
+
+#main .calendar-table caption .material-icons.button_disabled {
+  opacity: 0;
+}
+
 #main .calendar-table td {
   width: calc(100% / 7);
   height: 50px;
   color: black;
   font-size: 87.5%;
   text-align: center;
+  word-break: break-word;
   vertical-align: top;
   background: #b8d5f1;
   padding: 10px 5px;
@@ -831,7 +849,7 @@ select {
   margin-top: 15px;
 }
 
-#main .setting-area .area-inquiry address i {
+#main .setting-area .area-inquiry address .material-icons {
   margin-right: 10px;
 }
 
@@ -854,7 +872,8 @@ select {
   color: #00f;
 }
 
-#main .transfer,
+#main .notification-function
+.transfer,
 #main .recycle-station,
 #main .oversize-garbage,
 #main .bring-in,
@@ -865,7 +884,8 @@ select {
   padding: 15px;
 }
 
-#main .transfer h2,
+#main .notification-function
+.transfer h2,
 #main .recycle-station h2,
 #main .oversize-garbage h2,
 #main .bring-in h2,
@@ -880,7 +900,8 @@ select {
   transition: .3s;
 }
 
-#main .transfer h2.no,
+#main .notification-function
+.transfer h2.no,
 #main .recycle-station h2.no,
 #main .oversize-garbage h2.no,
 #main .bring-in h2.no,
@@ -889,7 +910,8 @@ select {
   cursor: default;
 }
 
-#main .transfer h2:hover,
+#main .notification-function
+.transfer h2:hover,
 #main .recycle-station h2:hover,
 #main .oversize-garbage h2:hover,
 #main .bring-in h2:hover,
@@ -898,8 +920,10 @@ select {
   opacity: .8;
 }
 
-#main .transfer .accordion,
-#main .transfer .accordion-no,
+#main .notification-function
+.transfer .accordion,
+#main .notification-function
+.transfer .accordion-no,
 #main .recycle-station .accordion,
 #main .recycle-station .accordion-no,
 #main .oversize-garbage .accordion,
@@ -913,8 +937,10 @@ select {
   padding: 10px 15px;
 }
 
-#main .transfer .accordion p,
-#main .transfer .accordion-no p,
+#main .notification-function
+.transfer .accordion p,
+#main .notification-function
+.transfer .accordion-no p,
 #main .recycle-station .accordion p,
 #main .recycle-station .accordion-no p,
 #main .oversize-garbage .accordion p,
@@ -928,8 +954,10 @@ select {
   margin: 0;
 }
 
-#main .transfer .accordion p.notes,
-#main .transfer .accordion-no p.notes,
+#main .notification-function
+.transfer .accordion p.notes,
+#main .notification-function
+.transfer .accordion-no p.notes,
 #main .recycle-station .accordion p.notes,
 #main .recycle-station .accordion-no p.notes,
 #main .oversize-garbage .accordion p.notes,
@@ -943,8 +971,10 @@ select {
   font-size: 0.75em;
 }
 
-#main .transfer .accordion hr,
-#main .transfer .accordion-no hr,
+#main .notification-function
+.transfer .accordion hr,
+#main .notification-function
+.transfer .accordion-no hr,
 #main .recycle-station .accordion hr,
 #main .recycle-station .accordion-no hr,
 #main .oversize-garbage .accordion hr,
@@ -959,8 +989,10 @@ select {
   margin: 10px 0;
 }
 
-#main .transfer .accordion h3,
-#main .transfer .accordion-no h3,
+#main .notification-function
+.transfer .accordion h3,
+#main .notification-function
+.transfer .accordion-no h3,
 #main .recycle-station .accordion h3,
 #main .recycle-station .accordion-no h3,
 #main .oversize-garbage .accordion h3,
@@ -977,8 +1009,10 @@ select {
   margin-bottom: 10px;
 }
 
-#main .transfer .accordion address,
-#main .transfer .accordion-no address,
+#main .notification-function
+.transfer .accordion address,
+#main .notification-function
+.transfer .accordion-no address,
 #main .recycle-station .accordion address,
 #main .recycle-station .accordion-no address,
 #main .oversize-garbage .accordion address,
@@ -994,8 +1028,10 @@ select {
   margin-top: 15px;
 }
 
-#main .transfer .accordion address.tel,
-#main .transfer .accordion-no address.tel,
+#main .notification-function
+.transfer .accordion address.tel,
+#main .notification-function
+.transfer .accordion-no address.tel,
 #main .recycle-station .accordion address.tel,
 #main .recycle-station .accordion-no address.tel,
 #main .oversize-garbage .accordion address.tel,
@@ -1010,18 +1046,20 @@ select {
   font-weight: bold;
 }
 
-#main .transfer .accordion address i,
-#main .transfer .accordion-no address i,
-#main .recycle-station .accordion address i,
-#main .recycle-station .accordion-no address i,
-#main .oversize-garbage .accordion address i,
-#main .oversize-garbage .accordion-no address i,
-#main .bring-in .accordion address i,
-#main .bring-in .accordion-no address i,
-#main .not-handle .accordion address i,
-#main .not-handle .accordion-no address i,
-#main .inquiry .accordion address i,
-#main .inquiry .accordion-no address i {
+#main .notification-function
+.transfer .accordion address .material-icons,
+#main .notification-function
+.transfer .accordion-no address .material-icons,
+#main .recycle-station .accordion address .material-icons,
+#main .recycle-station .accordion-no address .material-icons,
+#main .oversize-garbage .accordion address .material-icons,
+#main .oversize-garbage .accordion-no address .material-icons,
+#main .bring-in .accordion address .material-icons,
+#main .bring-in .accordion-no address .material-icons,
+#main .not-handle .accordion address .material-icons,
+#main .not-handle .accordion-no address .material-icons,
+#main .inquiry .accordion address .material-icons,
+#main .inquiry .accordion-no address .material-icons {
   margin-right: 10px;
 }
 
@@ -1110,3 +1148,4 @@ select {
 .about-app .close:hover {
   opacity: .8;
 }
+/*# sourceMappingURL=style.css.map */
