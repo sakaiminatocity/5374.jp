@@ -166,5 +166,26 @@
     "languageId": 2,
     "title": "lời xin lỗi",
     "notification": "Có một huyện trong đó việc hiển thị các cập nhật bộ sưu tập với phần lịch là tháng mười hai 31 (thứ năm) và tháng 1 (kỳ nghỉ vàng), nhưng điều này là không chính xác. Chính xác trong cuối năm và ngày lễ năm mới vào cả hai ngày, xin vui lòng lưu ý rằng không có bộ sưu tập. Cần lưu ý, làm bộ sưu tập thông thường từ tháng 4 (thứ Hai). Dẫn đến sự nhầm lẫn, xin lỗi vì sự bất tiện."
+  },
+    {
+    "id": 30,
+    "notificationId": 11,
+    "languageId": 0,
+    "title": "年末年始のごみ等の収集・業務のお知らせ",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=111909\" target=\"_blank\"> 市ホームページ </a>"
+  },
+  {
+    "id": 31,
+    "notificationId": 11,
+    "languageId": 1,
+    "title": "About collection work such as year-end and New Year garbage",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=111909\" target=\"_blank\"> City homepage </a>"
+  },
+  {
+    "id": 32,
+    "notificationId": 11,
+    "languageId": 2,
+    "title": "Về công việc thu gom như rác cuối năm, tết",
+    "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=111909\" target=\"_blank\"> Trang chủ thành phố </a>"
   }
 ]
