@@ -54,5 +54,12 @@
     "beginDate": 20201230,
     "endDate": 20210103,
     "cautionFlag": 1
+  },
+  {
+    "id": 11,
+    "date": 20211224,
+    "beginDate": 20211225,
+    "endDate": 20220103,
+    "cautionFlag": 1
   }
 ]
