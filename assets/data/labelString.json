@@ -387,25 +387,25 @@
     "id": 64,
     "labelId": 32,
     "languageId": 0,
-    "label": "お知らせ機能は"
+    "label": ""
   },
   {
     "id": 65,
     "labelId": 32,
     "languageId": 1,
-    "label": "Notification function&nbsp;"
+    "label": ""
   },
   {
     "id": 66,
     "labelId": 33,
     "languageId": 0,
-    "label": "コチラ"
+    "label": ""
   },
   {
     "id": 67,
     "labelId": 33,
     "languageId": 1,
-    "label": "Click heres"
+    "label": ""
   },
   {
     "id": 68,
@@ -843,13 +843,13 @@
     "id": 140,
     "labelId": 32,
     "languageId": 2,
-    "label": "Chức năng thông báo"
+    "label": ""
   },
   {
     "id": 141,
     "labelId": 33,
     "languageId": 2,
-    "label": "Ở đây"
+    "label": ""
   },
   {
     "id": 142,
