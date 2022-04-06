@@ -187,5 +187,26 @@
     "languageId": 2,
     "title": "Về công việc thu gom như rác cuối năm, tết",
     "notification": "<a href=\"https://www.city.sakaiminato.lg.jp/index.php?view=111909\" target=\"_blank\"> Trang chủ thành phố </a>"
+  },
+  {
+    "id": 33,
+    "notificationId": 12,
+    "languageId": 0,
+    "title": "53calサービス終了のお知らせ",
+    "notification": "ごみの収集日をお知らせする53cal（ゴミカレ）は3月末日をもってサービスを終了いたしました。皆さんにはご不便をおかけいたしますが、ご了承くださいますようお願い申し上げます。"
+  },
+  {
+    "id": 34,
+    "notificationId": 12,
+    "languageId": 1,
+    "title": "Notice of end of 53cal service",
+    "notification": "53cal notifying garbage collection ended at the end of March."
+  },
+  {
+    "id": 35,
+    "notificationId": 12,
+    "languageId": 2,
+    "title": "Về công việc thu gom như rác cuối năm, tết",
+    "notification": "53cal thông báo rằng việc thu gom rác đã kết thúc vào cuối tháng Ba."
   }
 ]
