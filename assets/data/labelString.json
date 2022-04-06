@@ -51,13 +51,13 @@
     "id": 8,
     "labelId": 4,
     "languageId": 0,
-    "label": "お知らせ機能"
+    "label": ""
   },
   {
     "id": 9,
     "labelId": 4,
     "languageId": 1,
-    "label": "Notification function"
+    "label": ""
   },
   {
     "id": 10,
@@ -675,7 +675,7 @@
     "id": 112,
     "labelId": 4,
     "languageId": 2,
-    "label": "Chức năng thông báo"
+    "label": ""
   },
   {
     "id": 113,
