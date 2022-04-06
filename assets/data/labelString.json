@@ -615,13 +615,13 @@
     "id": 102,
     "labelId": 51,
     "languageId": 0,
-    "label": "メール配信を希望される方は空メールを送信する際に、送信ボタンが押せない場合は、何かしらの文字を入力してからお試しください。"
+    "label": ""
   },
   {
     "id": 103,
     "labelId": 51,
     "languageId": 1,
-    "label": "If you want to send mail, please send some blank letters if you can not press the send button when sending a blank mail."
+    "label": ""
   },
   {
     "id": 104,
@@ -957,7 +957,7 @@
     "id": 159,
     "labelId": 51,
     "languageId": 2,
-    "label": "Người muốn gửi tin trong trường hợp nút gửi tin không thể ấn được khi mà gửi tin trống thì hãy thử nhập bất kì chữ nào vào rồi gửi thử xem."
+    "label": ""
   },
   {
     "id": 160,
