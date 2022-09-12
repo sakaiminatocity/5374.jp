@@ -208,5 +208,26 @@
     "languageId": 2,
     "title": "Về công việc thu gom như rác cuối năm, tết",
     "notification": "53cal thông báo rằng việc thu gom rác đã kết thúc vào cuối tháng Ba."
+  },
+    {
+    "id": 36,
+    "notificationId": 13,
+    "languageId": 0,
+    "title": "メンテナンス”のお知らせ",
+    "notification": "ごみ収集日データをメンテナンスしております。大変ご迷惑おかけしますが、しばらくお待ちください。"
+  },
+  {
+    "id": 37,
+    "notificationId": 13,
+    "languageId": 1,
+    "title": "Maintenance notification",
+    "notification": "We maintain garbage collection day data. We apologize for the inconvenience, but please wait for a while."
+  },
+  {
+    "id": 38,
+    "notificationId": 13,
+    "languageId": 2,
+    "title": "Thông báo bảo trì",
+    "notification": "Chúng tôi duy trì dữ liệu ngày thu gom rác. Chúng tôi xin lỗi vì sự bất tiện này, nhưng vui lòng đợi trong giây lát."
   }
 ]
