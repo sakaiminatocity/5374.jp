@@ -229,5 +229,26 @@
     "languageId": 2,
     "title": "Thông báo bảo trì",
     "notification": "Chúng tôi duy trì dữ liệu ngày thu gom rác. Chúng tôi xin lỗi vì sự bất tiện này, nhưng vui lòng đợi trong giây lát."
+  },
+    {
+    "id": 39,
+    "notificationId": 14,
+    "languageId": 0,
+    "title": "当サービス終了のお知らせ",
+    "notification": "令和５年３月３１日をもちまして、当サイトは終了することになりました。ご愛顧いただき、ありがとうございました。新しいサービスにつきましては、あらためて境港市ホームページまたは市報等でお知らせします。"
+  },
+  {
+    "id": 40,
+    "notificationId": 14,
+    "languageId": 1,
+    "title": "Notice of termination of this service",
+    "notification": "This site will be closed on March 31, 2023. Thank you for your continued patronage. We will inform you about the new service on the Sakaiminato City website and in the city bulletin."
+  },
+  {
+    "id": 41,
+    "notificationId": 14,
+    "languageId": 2,
+    "title": "Thông báo chấm dứt dịch vụ này",
+    "notification": "Trang web này sẽ đóng cửa vào ngày 31 tháng 3 năm 2023. Cảm ơn bạn đã tiếp tục bảo trợ. Chúng tôi sẽ thông báo cho bạn về dịch vụ mới trên trang web của Thành phố Sakaiminato và trong bản tin của thành phố."
   }
 ]
